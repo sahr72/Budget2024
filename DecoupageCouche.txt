@@ -1,0 +1,23 @@
+Layer Responsibilities in Your Architecture
+Core
+
+Contains the domain entities, interfaces, and business rules.
+Should be independent of external libraries like EF Core.
+Application
+
+Contains the application-specific logic, DTOs, and service interfaces.
+Mediates between the presentation layer and infrastructure.
+No direct dependency on EF Core but can interact with repository interfaces defined in Core.
+Infrastructure
+
+Implements the repository pattern, database interactions, and EF Core configurations.
+EF Core 8 should be installed and used here.
+Contains the DbContext, migrations, and repository implementations.
+Blazor
+
+The presentation layer for the user interface (Blazor Server app).
+Should interact only with the Application layer (service interfaces) for CRUD operations.
+Tests
+
+Contains unit and integration tests.
+May reference the Infrastructure layer for integration testing with an in-memory database like SQLite or an EF Core in-memory provider.

@@ -1,0 +1,19 @@
+﻿@using Budget2024.Webass.Models
+@code {
+    [Parameter] public List<MenuItem> MenuItems { get; set; } = new();
+    [Parameter] public EventCallback<MenuItem> OnMainMenuItemClick { get; set; }
+
+    private void HandleItemClick(MenuItem item)
+    {
+        OnMainMenuItemClick.InvokeAsync(item);
+    }
+}
+
+<ul class="main-menu">
+    @foreach (var menuItem in MenuItems)
+    {
+        <li>
+            <button @onclick="() => HandleItemClick(menuItem)">@menuItem.Title</button>
+        </li>
+    }
+</ul>

@@ -1,0 +1,34 @@
+﻿@using Budget2024.Webass.Models
+@code {
+    [Parameter] public MenuItem? SelectedMenuItem { get; set; }
+    [Parameter] public MenuItem? SelectedSubMenuItem { get; set; }
+    [Parameter] public EventCallback<MenuItem> OnSubMenuItemClick { get; set; }
+
+    private void HandleSubItemClick(MenuItem item)
+    {
+        OnSubMenuItemClick.InvokeAsync(item);
+    }
+}
+
+@if (SelectedMenuItem?.SubMenuItems != null)
+{
+    <ul class="submenu">
+        @foreach (var subItem in SelectedMenuItem.SubMenuItems)
+        {
+            <li>
+                <button @onclick="() => HandleSubItemClick(subItem)">@subItem.Title</button>
+                @if (SelectedSubMenuItem == subItem && subItem.SubMenuItems != null)
+                {
+                    <ul>
+                        @foreach (var subSubItem in subItem.SubMenuItems)
+                        {
+                            <li>
+                                <button @onclick="() => HandleSubItemClick(subSubItem)">@subSubItem.Title</button>
+                            </li>
+                        }
+                    </ul>
+                }
+            </li>
+        }
+    </ul>
+}

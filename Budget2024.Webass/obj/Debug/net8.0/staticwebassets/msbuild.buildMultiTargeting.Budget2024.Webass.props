@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Budget2024.Webass.props" />
+</Project>

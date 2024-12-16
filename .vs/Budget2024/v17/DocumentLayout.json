@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.infrastructure\\budget2024.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\budget2024.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.core\\budget2024.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\budget2024.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.application\\budget2024.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\budget2024.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.api\\budget2024.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\budget2024.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\budget2024.webass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\budget2024.webass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.infrastructure\\modelentity\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\modelentity\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.infrastructure\\modelentity\\20241214175041_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\modelentity\\20241214175041_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\pages\\dashbord.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\pages\\dashbord.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.infrastructure\\modelentity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\modelentity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 328,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Budget2024.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
+              "RelativeDocumentMoniker": "Budget2024.Application\\Budget2024.Application.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
+              "RelativeToolTip": "Budget2024.Application\\Budget2024.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-16T01:47:11.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Budget2024.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Budget2024.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T02:56:27.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Program.cs",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Program.cs",
+              "RelativeToolTip": "Budget2024.Webass\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T00:10:21.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\App.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\App.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\App.razor",
+              "RelativeToolTip": "Budget2024.Webass\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T00:35:55.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Budget2024.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Program.cs",
+              "RelativeToolTip": "Budget2024.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T00:24:48.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Budget2024.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\appsettings.json",
+              "RelativeToolTip": "Budget2024.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T00:21:17.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Budget2024.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
+              "RelativeToolTip": "Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T16:32:31.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Budget2024.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj",
+              "RelativeDocumentMoniker": "Budget2024.Core\\Budget2024.Core.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj",
+              "RelativeToolTip": "Budget2024.Core\\Budget2024.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-16T03:09:18.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Budget2024.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Budget2024.Api.csproj",
+              "RelativeDocumentMoniker": "Budget2024.Api\\Budget2024.Api.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Budget2024.Api.csproj",
+              "RelativeToolTip": "Budget2024.Api\\Budget2024.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T02:57:07.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Budget2024.Webass\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T18:56:26.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Budget2024.Webass\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-14T17:17:07.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Budget2024.Webass.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Budget2024.Webass.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj",
+              "RelativeToolTip": "Budget2024.Webass\\Budget2024.Webass.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T17:12:53.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T23:52:53.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241214175041_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\20241214175041_Initial.cs",
+              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\ModelEntity\\20241214175041_Initial.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\20241214175041_Initial.cs",
+              "RelativeToolTip": "Budget2024.Infrastructure\\ModelEntity\\20241214175041_Initial.cs",
+              "ViewState": "AgIAAIMDAAAAAAAAAAAAAI4DAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T17:50:41.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
+              "RelativeToolTip": "Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T17:40:27.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dashbord.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Pages\\Dashbord.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Pages\\Dashbord.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Pages\\Dashbord.razor",
+              "RelativeToolTip": "Budget2024.Webass\\Pages\\Dashbord.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T18:58:30.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "Budget2024.Webass\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAuwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-12T18:55:33.308Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

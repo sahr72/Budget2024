@@ -1,0 +1,64 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:28654",
+      "sslPort": 44309
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      //"launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5068",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      //"launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7076;http://localhost:5068",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      //"launchUrl": "swagger",
+      "inspectUri": "{wsProtocol}://{url.hostname}: {url.port}/_framework/debug/ws-proxy?browser= {browserInspectUri} ",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Budget2024.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "inspectUri": "{wsProtocol}://{url.hostname}: {url.port}/_framework/debug/ws-proxy?browser= {browserInspectUri} ",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Développement"
+      }
+    }
+  }
+}
+/*
+La propriété inspectUri permet le débogage de Blazor WebAssembly dans Visual Studio, Visual Studio pour macOS et Visual Studio Code.
+
+Les lignes que nous venons d'ajouter permettent le débogage de Blazor WebAssembly dans la famille d'IDE et d'éditeurs 
+  de texte Visual Studio. Actuellement, cette fonctionnalité n'est pas prise en charge sur d'autres IDE tels que JetBrains Rider.
+
+L' inspectUri permet à Visual Studio de reconnaître qu'il exécute une application Blazor WebAssembly. 
+  Il tentera ensuite de connecter l'infrastructure de débogage de script au proxy de débogage de Blazor. 
+  Vous remarquerez peut-être que la valeur de l' inspectUri contient quelques espaces réservés ; 
+  ceux-ci seront remplacés par le framework pendant la session de débogage et ne nécessitent aucune configuration manuelle.
+
+*/

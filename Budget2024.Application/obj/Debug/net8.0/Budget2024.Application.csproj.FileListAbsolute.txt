@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\bin\Debug\net8.0\Budget2024.Application.deps.json
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\bin\Debug\net8.0\Budget2024.Application.dll
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\bin\Debug\net8.0\Budget2024.Application.pdb
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\bin\Debug\net8.0\Budget2024.Core.dll
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\bin\Debug\net8.0\Budget2024.Infrastructure.dll
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\bin\Debug\net8.0\Budget2024.Core.pdb
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\bin\Debug\net8.0\Budget2024.Infrastructure.pdb
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\Budget2024.Application.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\Budget2024.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\Budget2024.Application.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\Budget2024.Application.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\Budget2024.Application.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\Budget20.172F66BC.Up2Date
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\Budget2024.Application.dll
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\refint\Budget2024.Application.dll
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\Budget2024.Application.pdb
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Application\obj\Debug\net8.0\ref\Budget2024.Application.dll

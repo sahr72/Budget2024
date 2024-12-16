@@ -1,0 +1,11 @@
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\bin\Debug\net8.0\Budget2024.Core.deps.json
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\bin\Debug\net8.0\Budget2024.Core.dll
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\bin\Debug\net8.0\Budget2024.Core.pdb
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\obj\Debug\net8.0\Budget2024.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\obj\Debug\net8.0\Budget2024.Core.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\obj\Debug\net8.0\Budget2024.Core.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\obj\Debug\net8.0\Budget2024.Core.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\obj\Debug\net8.0\Budget2024.Core.dll
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\obj\Debug\net8.0\refint\Budget2024.Core.dll
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\obj\Debug\net8.0\Budget2024.Core.pdb
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Core\obj\Debug\net8.0\ref\Budget2024.Core.dll

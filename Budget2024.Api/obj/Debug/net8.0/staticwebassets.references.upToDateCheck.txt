@@ -1,0 +1,2 @@
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Webass\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Webass\obj\Debug\net8.0\staticwebassets.build.json
