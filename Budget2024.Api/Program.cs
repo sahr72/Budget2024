@@ -1,21 +1,68 @@
+using Budget2024.Application.DTOs.Budget;
+using Budget2024.Application.MappingProfiles;
+using Budget2024.Application.Services;
+using Budget2024.Application.Services.Budget;
+using Budget2024.Core.Abstract;
+using Budget2024.Core.Abstract.Budget;
+using Budget2024.Infrastructure.Concret;
+using Budget2024.Infrastructure.Concret.Budget;
 using Budget2024.Infrastructure.ModelEntity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+// Enable CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowBlazorApp",
+        policy => policy.WithOrigins("https://localhost:7074") // Blazor app URL
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+});
+
 
 // Add services to the container.
+// Register AutoMapper
+builder.Services.AddAutoMapper(typeof(BudgetMappingProfile));
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-
-//builder.Services.AddSwaggerGen();
-
-/****/
+// Register DbContext (example with SQL Server)
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Register UnitOfWork and repositories (example)
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// Register generic repository
+builder.Services.AddScoped<IBudgetRepository, BudgetRepository>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IGenericRepository<Budget2024.Infrastructure.Data.Budget>, GenericRepository<Budget2024.Infrastructure.Data.Budget>>();
+
+// Register specific services
+//builder.Services.AddScoped<IGenericService<BudgetDTO>, BudgetService>();
+builder.Services.AddScoped<IBudgetService,BudgetService>();
+
+// Register GenericService for DTO/Entity pairs
+builder.Services.AddScoped(typeof(IGenericService<,>), typeof(GenericService<,>));
+//builder.Services.AddScoped<IGenericService<BudgetDTO, Budget2024.Core.DomainEntities.Budget>, GenericService<BudgetDTO, Budget2024.Core.DomainEntities.Budget>>();
+//builder.Services.AddScoped<IGenericService<BudgetDTO, Budget2024.Infrastructure.Data.Budget>, GenericService<BudgetDTO, Budget2024.Infrastructure.Data.Budget>>();
+//builder.Services.AddScoped<IGenericService<BudgetDTO, Budget2024.Core.DomainEntities.Budget>, GenericService<BudgetDTO, Budget2024.Core.DomainEntities.Budget>>();
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+
+//Register Meditor
+//builder.Services.AddMediatR(typeof(CreateBugetCommand).Assembly);
+
+//builder.Services.AddSwaggerGen();
+
+builder.Services.AddControllers();
+
 var app = builder.Build();
+
+
+// Apply the CORS policy
+app.UseCors("AllowBlazorApp");
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

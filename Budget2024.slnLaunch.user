@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nouveau profil",
+    "Projects": [
+      {
+        "Path": "Budget2024.Api\\Budget2024.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Budget2024.Webass\\Budget2024.Webass.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

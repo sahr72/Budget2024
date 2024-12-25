@@ -1,0 +1,172 @@
+﻿@* @page "/Budget"
+@using Budget2024.Application.DTOs.Budget
+
+
+@inject HttpClient Http
+
+<h3>Budget Data</h3>
+
+@if (budgets == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+        @foreach (var budget in budgets)
+        {
+            <li>@budget.Code - @budget.Budget1</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<BudgetDTO> budgets;
+
+    protected override async Task OnInitializedAsync()
+    {
+        budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>("api/budget");
+    }
+} *@
+@page "/budget"
+@using Budget2024.Application.DTOs.Budget
+
+
+ 
+
+<h3>Budget Management</h3>
+
+<!-- Toolbar for Add/Update Buttons -->
+<div class="mb-2">
+    <button @onclick="ShowAddForm" disabled="@isFormVisible">Add Budget</button>
+    <button @onclick="ShowUpdateForm" disabled="@isFormVisible || selectedBudget == null">Update Budget</button>
+</div>
+
+<!-- Budget Grid Component -->
+<BudgetGridComponent 
+    Budgets="@budgets" 
+    OnRowSelected="HandleRowSelected" />
+
+<!-- Budget Form Component -->
+@if (isFormVisible)
+{
+    <BudgetFormComponent 
+        Budget="selectedBudget" 
+        OnSave="HandleSave" 
+        OnCancel="HandleCancel" />
+}
+
+@code {
+    private List<BudgetDTO> budgets = new();
+     
+    private BudgetDTO? selectedBudget; // Selected row data
+    private bool isFormVisible = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadBudgets();
+    }
+
+    // // Utility method to build the query string
+    // private string BuildQueryString(Dictionary<string, string>? filters, Dictionary<string, string>? sortOrder, int pageNumber, int pageSize)
+    // {
+    //     var queryParams = new List<string>();
+
+    //     // Add filters to query string
+    //     if (filters != null && filters.Any())
+    //     {
+    //         foreach (var filter in filters)
+    //         {
+    //             queryParams.Add($"filters[{filter.Key}]={filter.Value}");
+    //         }
+    //     }
+
+    //     // Add sortOrder to query string
+    //     if (sortOrder != null && sortOrder.Any())
+    //     {
+    //         foreach (var sort in sortOrder)
+    //         {
+    //             queryParams.Add($"sortOrder[{sort.Key}]={sort.Value}");
+    //         }
+    //     }
+
+    //     // Add pagination parameters
+    //     queryParams.Add($"pageNumber={pageNumber}");
+    //     queryParams.Add($"pageSize={pageSize}");
+
+    //     return queryParams.Any() ? "?" + string.Join("&", queryParams) : string.Empty;
+    // }
+
+    private async Task LoadBudgets()
+    {
+        // Fetch budgets from API
+       // budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>("https://localhost:7076/api/budget") ?? new List<BudgetDTO>();
+
+
+        var filters = new Dictionary<string, string>
+        {
+            { "Budget1", "التسيير" } // Filtering by Name field
+           // ,{ "Category", "Health" } // Filtering by Category field
+        };
+
+        var sortOrder = new Dictionary<string, string>
+        {
+            { "Budget1", "asc" }, // Sorting by Budget1 field in ascending order
+            { "Code", "desc" } // Sorting by code field in descending order
+        };
+
+        var pageNumber = 1;
+        var pageSize = 10;
+
+        // Build the query string
+        var queryString = QueryStringHelper.BuildQueryString(filters, sortOrder, pageNumber, pageSize);
+
+        // Call the API with the query string
+        //exp: https://localhost:7076/api/budget/filtered?filters[Code]=م.ت&sortOrder[Budget1]=asc&sortOrder[Code]=desc&pageNumber=1&pageSize=10
+        var url = $"https://localhost:7076/api/budget/filtered{queryString}";
+        budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>(url) ?? new List<BudgetDTO>();
+        
+
+        //budgets=await budget
+    }
+
+    private void ShowAddForm()
+    {
+        selectedBudget = new BudgetDTO(); // Empty for Add
+        isFormVisible = true;
+    }
+
+    private void ShowUpdateForm()
+    {
+        isFormVisible = true;
+    }
+
+    private async Task HandleSave(BudgetDTO budget)
+    {
+        if (budget.BudgetId == 0)
+        {
+            // Add Budget
+            await Http.PostAsJsonAsync("https://localhost:7076/api/budget", budget);
+        }
+        else
+        {
+            // Update Budget
+            await Http.PutAsJsonAsync($"https://localhost:7076/api/budget/{budget.BudgetId}", budget);
+        }
+
+        await LoadBudgets(); // Refresh Grid
+        isFormVisible = false;
+        selectedBudget = null;
+    }
+
+    private void HandleCancel()
+    {
+        isFormVisible = false;
+        selectedBudget = null;
+    }
+
+    private void HandleRowSelected(BudgetDTO budget)
+    {
+        selectedBudget = budget;
+    }
+}

@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj": {}
+    "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj": {
+    "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
+        "projectUniqueName": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
         "projectName": "Budget2024.Application",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\obj\\",
+        "projectPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
+        "packagesPath": "C:\\Users\\U8m2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\U8m2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,21 +25,18 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/q2jn1aXPnPSIFnbNl1Tee3Bihepoy6DhOtfvaAUdqscw6u2Tuh/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj"
+              "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj": {
+                "projectPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj"
               },
-              "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj"
+              "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj"
               }
             }
           }
@@ -87,22 +82,20 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj": {
+    "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj",
+        "projectUniqueName": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj",
         "projectName": "Budget2024.Core",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\obj\\",
+        "projectPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj",
+        "packagesPath": "C:\\Users\\U8m2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\U8m2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,11 +103,8 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/q2jn1aXPnPSIFnbNl1Tee3Bihepoy6DhOtfvaAUdqscw6u2Tuh/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -157,22 +147,20 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj": {
+    "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
         "projectName": "Budget2024.Infrastructure",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\U8m2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\U8m2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -180,18 +168,15 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/q2jn1aXPnPSIFnbNl1Tee3Bihepoy6DhOtfvaAUdqscw6u2Tuh/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj"
+              "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj": {
+                "projectPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj"
               }
             }
           }
@@ -253,22 +238,20 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj": {
+    "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj",
+        "projectUniqueName": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj",
         "projectName": "Budget2024.Webass",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\obj\\",
+        "projectPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj",
+        "packagesPath": "C:\\Users\\U8m2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\U8m2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -276,21 +259,18 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/q2jn1aXPnPSIFnbNl1Tee3Bihepoy6DhOtfvaAUdqscw6u2Tuh/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj"
+              "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj": {
+                "projectPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj"
               },
-              "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj"
+              "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj": {
+                "projectPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj"
               }
             }
           }
@@ -311,6 +291,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.QuickGrid": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[8.0.11, )"
@@ -331,6 +319,10 @@
               "target": "Package",
               "version": "[9.0.0, )",
               "autoReferenced": true
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[7.15.0, )"
             }
           },
           "imports": [

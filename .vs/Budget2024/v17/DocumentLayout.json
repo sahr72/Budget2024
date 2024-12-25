@@ -1,74 +1,170 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\",
+  "WorkspaceRootPath": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.infrastructure\\budget2024.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\budget2024.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.core\\budget2024.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\budget2024.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.application\\services\\budget\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\services\\budget\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.application\\budget2024.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\budget2024.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.infrastructure\\concret\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\concret\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.api\\controllers\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\controllers\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.api\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\pages\\budget.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\pages\\budget.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.application\\utilities\\querystringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\utilities\\querystringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.application\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.application\\services\\budget\\ibudgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\services\\budget\\ibudgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\domainentities\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\domainentities\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.infrastructure\\concret\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\concret\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.infrastructure\\concret\\budget\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\concret\\budget\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.application\\dtos\\budget\\budgetcountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\dtos\\budget\\budgetcountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\abstract\\budget\\ibudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\abstract\\budget\\ibudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.application\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.api\\budget2024.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\budget2024.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.application\\budget2024.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\budget2024.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\budget2024.webass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\budget2024.webass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.application\\mappingprofiles\\budgetmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\mappingprofiles\\budgetmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.infrastructure\\modelentity\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.infrastructure\\modelentity\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\modelentity\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.infrastructure\\modelentity\\20241214175041_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\modelentity\\20241214175041_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.infrastructure\\modelentity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\modelentity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\pages\\dashbord.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\pages\\dashbord.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\abstract\\budget\\iindemniterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\abstract\\budget\\iindemniterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.webass\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\abstract\\budget\\ichapitrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\abstract\\budget\\ichapitrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\abstract\\budget\\iarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\abstract\\budget\\iarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\domainentities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\domainentities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\domainentities\\chapitre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\domainentities\\chapitre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.core\\domainentities\\indemnite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF285B6-9A61-4A13-894F-4EDD612C8CC8}|Budget2024.Core\\Budget2024.Core.csproj|solutionrelative:budget2024.core\\domainentities\\indemnite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\budget2024\\budget2024.infrastructure\\modelentity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\modelentity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.api\\budget2024.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CF16ADCF-BFCD-4535-8D06-5CC8578C4BB5}|Budget2024.Api\\Budget2024.Api.csproj|solutionrelative:budget2024.api\\budget2024.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\components\\budgetformcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\components\\budgetformcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.webass\\components\\budgetgridcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19C8677C-E989-4443-B074-2C68365D5979}|Budget2024.Webass\\Budget2024.Webass.csproj|solutionrelative:budget2024.webass\\components\\budgetgridcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.application\\dtos\\budget\\budgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4998BBA6-5BEA-47D1-B49E-0C8E0C159598}|Budget2024.Application\\Budget2024.Application.csproj|solutionrelative:budget2024.application\\dtos\\budget\\budgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|c:\\users\\u8m2\\source\\repos\\sahr72\\budget2024\\budget2024.infrastructure\\data\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1AC371-BF67-4B19-8AA2-312095E273AB}|Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj|solutionrelative:budget2024.infrastructure\\data\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,15 +174,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 328,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -102,208 +198,495 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Budget2024.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
-              "RelativeDocumentMoniker": "Budget2024.Application\\Budget2024.Application.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
-              "RelativeToolTip": "Budget2024.Application\\Budget2024.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-16T01:47:11.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Budget2024.Api\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Budget2024.Api\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-15T02:56:27.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Program.cs",
-              "RelativeDocumentMoniker": "Budget2024.Webass\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Program.cs",
-              "RelativeToolTip": "Budget2024.Webass\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T00:10:21.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\App.razor",
-              "RelativeDocumentMoniker": "Budget2024.Webass\\App.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\App.razor",
-              "RelativeToolTip": "Budget2024.Webass\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "Budget2024.Webass\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAcwIQAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T00:35:55.811Z"
+              "WhenOpened": "2024-12-17T18:45:57.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Program.cs",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Program.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Program.cs",
+              "RelativeToolTip": "Budget2024.Webass\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T00:10:21.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\_Imports.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\_Imports.razor",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\_Imports.razor",
+              "RelativeToolTip": "Budget2024.Webass\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T20:50:26.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericController.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Api\\Controllers\\GenericController.cs",
+              "RelativeDocumentMoniker": "Budget2024.Api\\Controllers\\GenericController.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Api\\Controllers\\GenericController.cs",
+              "RelativeToolTip": "Budget2024.Api\\Controllers\\GenericController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:49:08.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BudgetController.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Api\\Controllers\\BudgetController.cs",
+              "RelativeDocumentMoniker": "Budget2024.Api\\Controllers\\BudgetController.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Api\\Controllers\\BudgetController.cs",
+              "RelativeToolTip": "Budget2024.Api\\Controllers\\BudgetController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:37:17.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BudgetService.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Services\\Budget\\BudgetService.cs",
+              "RelativeDocumentMoniker": "Budget2024.Application\\Services\\Budget\\BudgetService.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Services\\Budget\\BudgetService.cs",
+              "RelativeToolTip": "Budget2024.Application\\Services\\Budget\\BudgetService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwE4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:48:45.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Concret\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\Concret\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Concret\\GenericRepository.cs",
+              "RelativeToolTip": "Budget2024.Infrastructure\\Concret\\GenericRepository.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:39:05.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Budget.razor",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Pages\\Budget.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Pages\\Budget.razor",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Pages\\Budget.razor",
+              "RelativeToolTip": "Budget2024.Webass\\Pages\\Budget.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T19:33:37.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\Abstract\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\IGenericRepository.cs",
+              "RelativeToolTip": "Budget2024.Core\\Abstract\\IGenericRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:52:11.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QueryStringHelper.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Utilities\\QueryStringHelper.cs",
+              "RelativeDocumentMoniker": "Budget2024.Application\\Utilities\\QueryStringHelper.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Utilities\\QueryStringHelper.cs",
+              "RelativeToolTip": "Budget2024.Application\\Utilities\\QueryStringHelper.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T01:01:38.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenericService.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Services\\GenericService.cs",
+              "RelativeDocumentMoniker": "Budget2024.Application\\Services\\GenericService.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Services\\GenericService.cs",
+              "RelativeToolTip": "Budget2024.Application\\Services\\GenericService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAiwE4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T00:29:11.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\IGenericService.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\Abstract\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\IGenericService.cs",
+              "RelativeToolTip": "Budget2024.Core\\Abstract\\IGenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T01:10:15.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBudgetService.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Services\\Budget\\IBudgetService.cs",
+              "RelativeDocumentMoniker": "Budget2024.Application\\Services\\Budget\\IBudgetService.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Services\\Budget\\IBudgetService.cs",
+              "RelativeToolTip": "Budget2024.Application\\Services\\Budget\\IBudgetService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:58:39.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Budget.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\DomainEntities\\Budget.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\DomainEntities\\Budget.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\DomainEntities\\Budget.cs",
+              "RelativeToolTip": "Budget2024.Core\\DomainEntities\\Budget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:37:01.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Concret\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\Concret\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Concret\\UnitOfWork.cs",
+              "RelativeToolTip": "Budget2024.Infrastructure\\Concret\\UnitOfWork.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T00:00:24.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BudgetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Concret\\Budget\\BudgetRepository.cs",
+              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\Concret\\Budget\\BudgetRepository.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Concret\\Budget\\BudgetRepository.cs",
+              "RelativeToolTip": "Budget2024.Infrastructure\\Concret\\Budget\\BudgetRepository.cs",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAowGoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:26:08.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BudgetCountDTO.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\DTOs\\Budget\\BudgetCountDTO.cs",
+              "RelativeDocumentMoniker": "Budget2024.Application\\DTOs\\Budget\\BudgetCountDTO.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\DTOs\\Budget\\BudgetCountDTO.cs",
+              "RelativeToolTip": "Budget2024.Application\\DTOs\\Budget\\BudgetCountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:35:39.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBudgetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\Budget\\IBudgetRepository.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\Abstract\\Budget\\IBudgetRepository.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\Budget\\IBudgetRepository.cs",
+              "RelativeToolTip": "Budget2024.Core\\Abstract\\Budget\\IBudgetRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T20:31:24.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\ReadMe.txt",
+              "RelativeDocumentMoniker": "Budget2024.Application\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\ReadMe.txt",
+              "RelativeToolTip": "Budget2024.Application\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-24T17:19:35.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Api\\Program.cs",
               "RelativeDocumentMoniker": "Budget2024.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Api\\Program.cs",
               "RelativeToolTip": "Budget2024.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwEYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T00:24:48.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "Budget2024.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\appsettings.json",
-              "RelativeToolTip": "Budget2024.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-15T00:21:17.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Budget2024.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
-              "RelativeToolTip": "Budget2024.Infrastructure\\Budget2024.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-14T16:32:31.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Budget2024.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj",
-              "RelativeDocumentMoniker": "Budget2024.Core\\Budget2024.Core.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Core\\Budget2024.Core.csproj",
-              "RelativeToolTip": "Budget2024.Core\\Budget2024.Core.csproj",
+              "DocumentIndex": 20,
+              "Title": "Budget2024.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
+              "RelativeDocumentMoniker": "Budget2024.Application\\Budget2024.Application.csproj",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\Budget2024.Application.csproj",
+              "RelativeToolTip": "Budget2024.Application\\Budget2024.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-16T03:09:18.606Z"
+              "WhenOpened": "2024-12-24T16:34:27.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Budget2024.Api.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Budget2024.Api.csproj",
-              "RelativeDocumentMoniker": "Budget2024.Api\\Budget2024.Api.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Api\\Budget2024.Api.csproj",
-              "RelativeToolTip": "Budget2024.Api\\Budget2024.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-15T02:57:07.455Z"
+              "DocumentIndex": 21,
+              "Title": "BudgetMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\MappingProfiles\\BudgetMappingProfile.cs",
+              "RelativeDocumentMoniker": "Budget2024.Application\\MappingProfiles\\BudgetMappingProfile.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\MappingProfiles\\BudgetMappingProfile.cs",
+              "RelativeToolTip": "Budget2024.Application\\MappingProfiles\\BudgetMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:19:13.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Budget2024.Webass\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Budget2024.Webass\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwHAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T18:56:26.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Budget2024.Webass\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Budget2024.Webass\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-14T17:17:07.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Budget2024.Webass.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj",
-              "RelativeDocumentMoniker": "Budget2024.Webass\\Budget2024.Webass.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Budget2024.Webass.csproj",
-              "RelativeToolTip": "Budget2024.Webass\\Budget2024.Webass.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-14T17:12:53.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
               "RelativeToolTip": "Budget2024.Infrastructure\\ModelEntity\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T23:52:53.901Z"
+              "WhenOpened": "2024-12-22T06:33:49.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20241214175041_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\20241214175041_Initial.cs",
-              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\ModelEntity\\20241214175041_Initial.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\20241214175041_Initial.cs",
-              "RelativeToolTip": "Budget2024.Infrastructure\\ModelEntity\\20241214175041_Initial.cs",
-              "ViewState": "AgIAAIMDAAAAAAAAAAAAAI4DAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T17:50:41.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
               "RelativeToolTip": "Budget2024.Infrastructure\\ModelEntity\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwE0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T17:40:27.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Dashbord.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Pages\\Dashbord.razor",
-              "RelativeDocumentMoniker": "Budget2024.Webass\\Pages\\Dashbord.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\Pages\\Dashbord.razor",
-              "RelativeToolTip": "Budget2024.Webass\\Pages\\Dashbord.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T18:58:30.303Z"
+              "DocumentIndex": 24,
+              "Title": "IIndemniteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\Budget\\IIndemniteRepository.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\Abstract\\Budget\\IIndemniteRepository.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\Budget\\IIndemniteRepository.cs",
+              "RelativeToolTip": "Budget2024.Core\\Abstract\\Budget\\IIndemniteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T03:34:41.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
+              "Title": "IchapitreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\Budget\\IchapitreRepository.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\Abstract\\Budget\\IchapitreRepository.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\Budget\\IchapitreRepository.cs",
+              "RelativeToolTip": "Budget2024.Core\\Abstract\\Budget\\IchapitreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T03:34:27.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IArticleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\Budget\\IArticleRepository.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\Abstract\\Budget\\IArticleRepository.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\Abstract\\Budget\\IArticleRepository.cs",
+              "RelativeToolTip": "Budget2024.Core\\Abstract\\Budget\\IArticleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T03:33:46.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\DomainEntities\\Article.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\DomainEntities\\Article.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\DomainEntities\\Article.cs",
+              "RelativeToolTip": "Budget2024.Core\\DomainEntities\\Article.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T03:18:38.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Chapitre.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\DomainEntities\\Chapitre.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\DomainEntities\\Chapitre.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\DomainEntities\\Chapitre.cs",
+              "RelativeToolTip": "Budget2024.Core\\DomainEntities\\Chapitre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T03:20:48.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Indemnite.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\DomainEntities\\Indemnite.cs",
+              "RelativeDocumentMoniker": "Budget2024.Core\\DomainEntities\\Indemnite.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Core\\DomainEntities\\Indemnite.cs",
+              "RelativeToolTip": "Budget2024.Core\\DomainEntities\\Indemnite.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T03:20:55.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\index.html",
+              "RelativeToolTip": "Budget2024.Webass\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-17T19:25:32.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Budget2024.Webass\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T18:47:01.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\app.css",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "Budget2024.Webass\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\app.css",
               "RelativeToolTip": "Budget2024.Webass\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAuwM4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAowBQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-12T18:55:33.308Z"
+              "WhenOpened": "2024-12-18T00:45:17.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "Budget2024.Webass\\wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-17T19:26:11.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Budget2024.Api",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Api\\Budget2024.Api.csproj",
+              "RelativeDocumentMoniker": "Budget2024.Api\\Budget2024.Api.csproj",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Api\\Budget2024.Api.csproj",
+              "RelativeToolTip": "Budget2024.Api\\Budget2024.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-18T17:07:12.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "bootstrap.min.css.map",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+              "RelativeToolTip": "Budget2024.Webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABv5AUAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-18T16:39:31.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BudgetFormComponent.razor",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Components\\BudgetFormComponent.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Components\\BudgetFormComponent.razor",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Components\\BudgetFormComponent.razor",
+              "RelativeToolTip": "Budget2024.Webass\\Components\\BudgetFormComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T22:55:36.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BudgetGridComponent.razor",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Components\\BudgetGridComponent.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Components\\BudgetGridComponent.razor",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Components\\BudgetGridComponent.razor",
+              "RelativeToolTip": "Budget2024.Webass\\Components\\BudgetGridComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T20:48:39.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Header.razor",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Layout\\Header.razor",
+              "RelativeDocumentMoniker": "Budget2024.Webass\\Layout\\Header.razor",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\Layout\\Header.razor",
+              "RelativeToolTip": "Budget2024.Webass\\Layout\\Header.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T16:39:38.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BudgetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\DTOs\\Budget\\BudgetDTO.cs",
+              "RelativeDocumentMoniker": "Budget2024.Application\\DTOs\\Budget\\BudgetDTO.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Application\\DTOs\\Budget\\BudgetDTO.cs",
+              "RelativeToolTip": "Budget2024.Application\\DTOs\\Budget\\BudgetDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T14:05:17.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Budget.cs",
+              "DocumentMoniker": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Data\\Budget.cs",
+              "RelativeDocumentMoniker": "Budget2024.Infrastructure\\Data\\Budget.cs",
+              "ToolTip": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Infrastructure\\Data\\Budget.cs",
+              "RelativeToolTip": "Budget2024.Infrastructure\\Data\\Budget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:49:48.667Z"
             },
             {
               "$type": "Bookmark",

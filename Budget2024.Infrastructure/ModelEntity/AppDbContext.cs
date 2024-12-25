@@ -20,7 +20,7 @@ public partial class AppDbContext : DbContext
 
     public virtual DbSet<Bonification> Bonifications { get; set; }
 
-    public virtual DbSet<Budget> Budgets { get; set; }
+    public virtual DbSet<Budget2024.Infrastructure.Data.Budget> Budgets { get; set; }
 
     public virtual DbSet<Chapitre> Chapitres { get; set; }
 
@@ -76,7 +76,7 @@ public partial class AppDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=.;Database=Budget2024;Integrated Security=true;MultipleActiveResultSets=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Server=ASRINP3022-BSI\\SQL_LOCAL23;Database=Budget2024;Integrated Security=true;MultipleActiveResultSets=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -113,7 +113,7 @@ public partial class AppDbContext : DbContext
             entity.Property(e => e.Indice).HasColumnName("INDICE");
         });
 
-        modelBuilder.Entity<Budget>(entity =>
+        modelBuilder.Entity<Budget2024.Infrastructure.Data.Budget>(entity =>
         {
             entity.ToTable("Budgets", "budget");
 

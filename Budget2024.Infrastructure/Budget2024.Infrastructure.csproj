@@ -13,7 +13,6 @@
   <ItemGroup>
     <Folder Include="ModelEntity\" />
     <Folder Include="Data\" />
-    <Folder Include="Concret\" />
   </ItemGroup>
 
   <ItemGroup>

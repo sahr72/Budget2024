@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Budget2024.Api/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "Budget2024.Application": "1.0.0",
           "Budget2024.Core": "1.0.0",
           "Budget2024.Webass": "1.0.0",
@@ -96,6 +97,17 @@
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
             "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1124.52116"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.QuickGrid/8.0.11": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.11"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.QuickGrid.dll": {
+            "assemblyVersion": "8.0.11.0",
             "fileVersion": "8.0.1124.52116"
           }
         }
@@ -368,6 +380,28 @@
         }
       },
       "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {},
+      "Microsoft.Extensions.Localization/8.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.8",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Localization.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.824.36908"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/8.0.8": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.824.36908"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/8.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
@@ -541,6 +575,19 @@
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "MudBlazor/7.15.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.11",
+          "Microsoft.AspNetCore.Components.Web": "8.0.11",
+          "Microsoft.Extensions.Localization": "8.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/MudBlazor.dll": {
+            "assemblyVersion": "7.15.0.0",
+            "fileVersion": "7.15.0.0"
           }
         }
       },
@@ -761,9 +808,12 @@
       },
       "Budget2024.Webass/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "Budget2024.Application": "1.0.0",
           "Budget2024.Core": "1.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.11"
+          "Microsoft.AspNetCore.Components.QuickGrid": "8.0.11",
+          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.11",
+          "MudBlazor": "7.15.0"
         },
         "runtime": {
           "Budget2024.Webass.dll": {
@@ -828,6 +878,13 @@
       "sha512": "sha512-60g+idqaiVhPVNOqauy/vH5lREpjcuKl3/w6zJhdU1PFWg4jtdoyIPQH+qxBKsUohkELhH3cRfzGRKElVuZuwg==",
       "path": "microsoft.aspnetcore.components.forms/8.0.11",
       "hashPath": "microsoft.aspnetcore.components.forms.8.0.11.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.QuickGrid/8.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xDxFxyniO4UDQNSB9HoNsIENHYqPRGtyuY/s0ZAcEjFJrIhaRFfW/lkfnvSdwWtLnR/0k+2BM6x6PkUFNRT5QQ==",
+      "path": "microsoft.aspnetcore.components.quickgrid/8.0.11",
+      "hashPath": "microsoft.aspnetcore.components.quickgrid.8.0.11.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.Web/8.0.11": {
       "type": "package",
@@ -1004,6 +1061,20 @@
       "path": "microsoft.extensions.filesystemglobbing/8.0.0",
       "hashPath": "microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Localization/8.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n32ZGmc2UOv9R/xsBHQPOxBsqCSAAJSoMtFqoQ8zOegB2P+H6+773OyCWg4jRBkO/3dmCyBJXB0yLAOVW2/C/w==",
+      "path": "microsoft.extensions.localization/8.0.8",
+      "hashPath": "microsoft.extensions.localization.8.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization.Abstractions/8.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WYIsqP/A6dH/LWJznrvgoNPc7Q+CUJD0E78765GL3aonBtyFK1BKtPzBvvlnrr3SVqSO2r6xJCLgCEiCMG1gfA==",
+      "path": "microsoft.extensions.localization.abstractions/8.0.8",
+      "hashPath": "microsoft.extensions.localization.abstractions.8.0.8.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging/8.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1129,6 +1200,13 @@
       "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "MudBlazor/7.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b2+hO7ZTGwsGhu9SoowuNe2ETeF1GzExpg/hIYR++rSh+vy4v/QD0iOsrATWv3LdFJXSgk3d1+XIr5srW3jBiA==",
+      "path": "mudblazor/7.15.0",
+      "hashPath": "mudblazor.7.15.0.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

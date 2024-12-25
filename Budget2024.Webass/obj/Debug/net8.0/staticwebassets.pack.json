@@ -1,39 +1,47 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Budget2024.Webass.styles.css",
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Budget2024.Webass.styles.css",
       "PackagePath": "staticwebassets\\Budget2024.Webass.styles.css"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\Images\\LogoInfoParcours.jpg",
+      "PackagePath": "staticwebassets\\Images\\LogoInfoParcours.jpg"
+    },
+    {
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\index.html",
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\Budget2024\\Budget2024.Webass\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\U8m2\\source\\repos\\sahr72\\Budget2024\\Budget2024.Webass\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

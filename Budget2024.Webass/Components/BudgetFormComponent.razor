@@ -1,0 +1,50 @@
+﻿@using Budget2024.Application.DTOs
+@using Budget2024.Application.DTOs.Budget
+
+
+<div class="budget-form">
+    <h3>@(Budget?.BudgetId == 0 ? "Add Budget" : "Update Budget")</h3>
+
+    <EditForm Model="@Budget" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="Code">Code:</label>
+            <InputText id="Code" class="form-control" @bind-Value="Budget.Code" />
+        </div>
+
+        <div class="form-group">
+            <label for="Budget1">Budget Amount:</label>
+            <InputNumber id="Budget1" class="form-control" @bind-Value="Budget.Budget1" />
+        </div>
+
+        <div class="form-group">
+            <label for="Obs">Observation:</label>
+            <InputText id="Obs" class="form-control" @bind-Value="Budget.Obs" />
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    [Parameter] public BudgetDTO? Budget { get; set; }
+    [Parameter] public EventCallback<BudgetDTO> OnSave { get; set; }
+    [Parameter] public EventCallback OnCancel { get; set; }
+
+    private async Task HandleValidSubmit()
+    {
+        // Pass the saved/updated budget data back to the parent
+        await OnSave.InvokeAsync(Budget);
+    }
+
+    private async Task Cancel()
+    {
+        // Trigger cancel and hide the form
+        await OnCancel.InvokeAsync();
+    }
+}

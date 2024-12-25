@@ -1,0 +1,1 @@
+﻿Les classes service sont déclarées dans la couche Application et opèrent coté-serveur.

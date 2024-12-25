@@ -1,0 +1,181 @@
+﻿@page "/Dashboard"
+@using Budget2024.Application.DTOs.Budget
+@using Budget2024.Application.Services.Budget
+@* @inject IBudgetService budgetService *@
+
+<h3>Budget Management</h3>
+
+@* <MudTable Items="budgets" Hover="true" Bordered="true" Striped="true">
+    <HeaderContent>
+        <MudTh>Budget ID</MudTh>
+        <MudTh>Code</MudTh>
+        <MudTh>Budget</MudTh>
+        <MudTh>Observation</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Budget ID">@context.BudgetId</MudTd>
+        <MudTd DataLabel="Code">@context.Code</MudTd>
+        <MudTd DataLabel="Budget">@context.Budget1</MudTd>
+        <MudTd DataLabel="Observation">@context.Obs</MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code {
+    private List<BudgetDTO> budgets;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+        budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>("api/budget");
+        Console.WriteLine("OnInitializedAsync is called.");
+        //budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>("https://localhost:7076/api/budget") ?? new List<BudgetDTO>();
+            Console.WriteLine($"Budgets fetched: {budgets.Count}");
+        }
+        catch (Exception ex)
+        {
+
+            Console.WriteLine($"Error fetching budgets: {ex.Message}");
+        }
+
+    }
+} *@
+
+<MudText Typo="Typo.h3">Budget Data</MudText>
+
+<MudTextField @bind-Value="searchString" Placeholder="Filter by Code" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mb-4" />
+
+@if (isAdding)
+{
+    <EditForm Model="newBudget" OnValidSubmit="HandleValidSubmit">
+        <MudCard Class="pa-4">
+            <MudCardContent>
+                <MudStack Direction="Row" Spacing="2">
+                    <MudTextField @ref="firstTextField"  @bind-Value="newBudget.Code" Label="Code" Required="true" Class="custom-textfield" />
+                    <MudTextField @bind-Value="newBudget.Budget1" Label="Budget" Required="true" Class="custom-textfield" />
+                    <MudTextField @bind-Value="newBudget.Obs" Label="Observation" Class="custom-textfield" />
+                </MudStack>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Type="Submit" Variant="Variant.Filled" Color="Color.Primary">Save</MudButton>
+                <MudButton Variant="Variant.Outlined" Color="Color.Secondary" OnClick="CancelAdd">Cancel</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </EditForm>
+}
+
+<MudTable Items="filteredBudgets" Hover="true" Bordered="true" Striped="true" SortLabel="Sort by" RowsPerPage="10" @ref="table" Class="mud-table-custom">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Budgets</MudText>
+        <MudSpacer />
+        @if (!isAdding)
+        {
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="AddBudget">Add</MudButton>
+        }
+        <MudSpacer />
+        <MudTablePager />
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh Class="mud-table-header-custom">Budget ID</MudTh>
+        <MudTh Class="mud-table-header-custom">Code</MudTh>
+        <MudTh Sortable="true" SortBy="nameof(BudgetDTO.Budget1)" Class="mud-table-header-custom">Budget</MudTh>
+        <MudTh Class="mud-table-header-custom">Observation</MudTh>
+        <MudTh Class="mud-table-header-custom">Actions</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Budget ID" Class="mud-table-cell-custom">@context.BudgetId</MudTd>
+        <MudTd DataLabel="Code" Class="mud-table-cell-custom">@context.Code</MudTd>
+        <MudTd DataLabel="Budget" Class="mud-table-cell-custom">@context.Budget1</MudTd>
+        <MudTd DataLabel="Observation" Class="mud-table-cell-custom">@context.Obs</MudTd>
+        <MudTd DataLabel="Actions" Class="mud-table-cell-custom">
+            @if (!isAdding)
+            {
+                <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="() => UpdateBudget(context)">Update</MudButton>
+                <MudButton Variant="Variant.Outlined" Color="Color.Secondary" OnClick="() => DeleteBudget(context)">Delete</MudButton>
+            }
+        </MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code {
+    private List<BudgetDTO> budgets;
+    private MudTable<BudgetDTO> table;
+    private string searchString = "";
+    private bool isAdding = false;
+    private BudgetDTO newBudget = new BudgetDTO();
+    private MudTextField<string> firstTextField;
+
+    
+   
+
+    protected override async Task OnInitializedAsync()
+    {
+        //budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>("api/budget/all");
+
+
+
+        var filters = new Dictionary<string, string>
+        {
+            { "Budget1", "التسيير" } // Filtering by Name field
+           // ,{ "Category", "Health" } // Filtering by Category field
+        };
+
+        var sortOrder = new Dictionary<string, string>
+        {
+            { "Budget1", "asc" }, // Sorting by Budget1 field in ascending order
+            { "Code", "desc" } // Sorting by code field in descending order
+        };
+
+        var pageNumber = 1;
+        var pageSize = 10;
+
+        // Build the query string
+        var queryString = QueryStringHelper.BuildQueryString(filters, sortOrder, pageNumber, pageSize);
+
+        // Call the API with the query string
+        //exp: https://localhost:7076/api/budget/filtered?filters[Code]=م.ت&sortOrder[Budget1]=asc&sortOrder[Code]=desc&pageNumber=1&pageSize=10
+        var url = $"https://localhost:7076/api/budget/filtered{queryString}";
+        budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>(url);// ?? new List<BudgetDTO>();
+
+    }
+
+    private IEnumerable<BudgetDTO> filteredBudgets => budgets?.Where(b => string.IsNullOrWhiteSpace(searchString) || b.Code.Contains(searchString, StringComparison.OrdinalIgnoreCase));
+
+    private async Task AddBudget()
+    {
+        isAdding = true;
+        // Delay focus to ensure the component is rendered
+        // Small delay to ensure UI is fully rendered
+        await Task.Delay(1);
+
+        if (firstTextField != null)
+        {
+            await firstTextField.FocusAsync();
+        }
+    }
+
+    private void CancelAdd()
+    {
+        isAdding = false;
+        newBudget = new BudgetDTO();
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        // Logic to add the new budget
+        budgets.Add(newBudget);
+        newBudget = new BudgetDTO();
+        isAdding = false;
+        await Http.PostAsJsonAsync("api/budget", newBudget);
+    }
+
+    private void UpdateBudget(BudgetDTO budget)
+    {
+        // Logic to update the selected budget
+    }
+
+    private void DeleteBudget(BudgetDTO budget)
+    {
+        // Logic to delete the selected budget
+    }
+}
