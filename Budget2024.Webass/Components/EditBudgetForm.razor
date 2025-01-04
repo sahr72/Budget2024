@@ -1,0 +1,30 @@
+﻿@* 2. EditBudgetForm.razor (Updated)
+
+Purpose: Acts as a wrapper for BudgetForm.razor, passing necessary parameters.
+Key Elements:
+BudgetForm component inclusion with parameter passing.
+Simplified code, as form logic is now handled in BudgetForm.razor. *@
+
+
+@using Budget2024.Application.DTOs.Budget
+@using Budget2024.Application.Services.Budget
+<BudgetForm 
+    IsNewBudget="@IsNewBudget" 
+    BudgetDTO="@BudgetDTO" 
+    OnSubmit="@OnSubmit" 
+    OnCancel="@OnCancel">
+</BudgetForm>
+
+@code {
+    [Parameter]
+    public bool IsNewBudget { get; set; }
+
+    [Parameter]
+    public BudgetDTO BudgetDTO { get; set; }
+
+    [Parameter]
+    public EventCallback OnSubmit { get; set; }
+
+    [Parameter]
+    public EventCallback OnCancel { get; set; }
+}

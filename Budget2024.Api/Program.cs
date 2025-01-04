@@ -1,7 +1,10 @@
 using Budget2024.Application.DTOs.Budget;
 using Budget2024.Application.MappingProfiles;
 using Budget2024.Application.Services;
+using Budget2024.Application.Services.Article;
 using Budget2024.Application.Services.Budget;
+using Budget2024.Application.Services.Chapitre;
+using Budget2024.Application.Services.Indemnite;
 using Budget2024.Core.Abstract;
 using Budget2024.Core.Abstract.Budget;
 using Budget2024.Infrastructure.Concret;
@@ -24,6 +27,9 @@ builder.Services.AddCors(options =>
 // Add services to the container.
 // Register AutoMapper
 builder.Services.AddAutoMapper(typeof(BudgetMappingProfile));
+builder.Services.AddAutoMapper(typeof(ChapitreMappingProfile));
+builder.Services.AddAutoMapper(typeof(ArticleMappingProfile));
+builder.Services.AddAutoMapper(typeof(IndemniteMappingProfile));
 
 // Register DbContext (example with SQL Server)
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -36,10 +42,15 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IBudgetRepository, BudgetRepository>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IGenericRepository<Budget2024.Infrastructure.Data.Budget>, GenericRepository<Budget2024.Infrastructure.Data.Budget>>();
-
+builder.Services.AddScoped<IGenericRepository<Budget2024.Infrastructure.Data.Chapitre>, GenericRepository<Budget2024.Infrastructure.Data.Chapitre>>();
+builder.Services.AddScoped<IGenericRepository<Budget2024.Infrastructure.Data.Article>, GenericRepository<Budget2024.Infrastructure.Data.Article>>();
+builder.Services.AddScoped<IGenericRepository<Budget2024.Infrastructure.Data.Indemnite>, GenericRepository<Budget2024.Infrastructure.Data.Indemnite>>();
 // Register specific services
 //builder.Services.AddScoped<IGenericService<BudgetDTO>, BudgetService>();
 builder.Services.AddScoped<IBudgetService,BudgetService>();
+builder.Services.AddScoped<IChapitreService, ChapitreService>();
+builder.Services.AddScoped<IArticleService, ArticleService>();
+builder.Services.AddScoped<IIndemniteService, IndemniteService>();
 
 // Register GenericService for DTO/Entity pairs
 builder.Services.AddScoped(typeof(IGenericService<,>), typeof(GenericService<,>));

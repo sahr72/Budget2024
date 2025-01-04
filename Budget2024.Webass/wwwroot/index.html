@@ -28,6 +28,40 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+    <script>
+        window.showConfirmModal = async (element) => {
+            console.log("showConfirmModal called");
+            console.log("Element:", element);
+            if (element) {
+                element.style.display = 'block';
+                element.classList.add('show');
+                element.setAttribute('aria-modal', 'true');
+                element.setAttribute('role', 'dialog');
+                console.log("Modal should now be visible");
+            } else {
+                console.log("Element is null");
+            }
+        };
+
+        window.hideConfirmModal = async (element) => {
+            console.log("hideConfirmModal called");
+            if (element) {
+                element.style.display = 'none';
+                element.classList.remove('show');
+                element.removeAttribute('aria-modal');
+                element.removeAttribute('role');
+                console.log("Modal should now be hidden");
+            } else {
+                console.log("Element is null");
+            }
+        };
+
+        //function focusElement(element) {
+        //    element.focus();
+        //}
+    </script>
+
 </body>
 
 </html>

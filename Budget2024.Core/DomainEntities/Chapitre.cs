@@ -13,9 +13,9 @@ public partial class Chapitre
 
     public int BudgetId { get; set; }
 
-    public virtual ICollection<Article> Articles { get; set; } = new List<Article>();
+    //public virtual ICollection<Article> Articles { get; set; } = new List<Article>();
 
-    public virtual Budget Budget { get; set; } = null!;
+    //public virtual Budget Budget { get; set; } = null!;
 
     //public virtual ICollection<LigneMatChap> LigneMatChaps { get; set; } = new List<LigneMatChap>();
 }

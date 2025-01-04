@@ -64,9 +64,11 @@ public class BudgetService: IBudgetService
     }
      
 
-    public Task<bool> ExistsAsync(int id)
+    public async Task<bool> ExistsAsync(int id)
     {
-        throw new NotImplementedException();
+        var entite = await _unitOfWork.Repository<Infrastructure.Data.Budget>().GetByIdAsync(id);
+        if (entite != null) return true;
+        return false;
     }
 
     public async Task<IEnumerable<BudgetDTO>> GetAllFilteredAsync(

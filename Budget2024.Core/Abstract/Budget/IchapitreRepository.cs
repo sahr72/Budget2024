@@ -2,7 +2,7 @@
 
 namespace Budget2024.Core.Abstract.Budget
 {
-    public interface IchapitreRepository:IGenericRepository<Chapitre>
+    public interface IChapitreRepository:IGenericRepository<Chapitre>
     {
     }
 }

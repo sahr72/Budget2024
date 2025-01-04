@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>c7i9wz73ek</Fingerprint>
-      <Integrity>aIDBehNRC5kLygX7VOtsEW6imZlcVZkhhQtx+qjEYCo=</Integrity>
+      <Fingerprint>hshj3eyjht</Fingerprint>
+      <Integrity>L2QsxTNHUhO0CbvGxQISB0Eveu4+wvNrpXnJMDeWfac=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Budget2024.Webass.styles.css'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pu0azxxdma</Fingerprint>
-      <Integrity>0ZlP46CLORghzmEtVm2Ff9JVbhZ2bYIEU7ZkFVRxbbs=</Integrity>
+      <Fingerprint>ddd0dl2tk0</Fingerprint>
+      <Integrity>T7vjZCsroqL1n1moyCn4zhSQyS2TD1RJSFpzqDzc5a8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</OriginalItemSpec>
@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0uri23a35n</Fingerprint>
-      <Integrity>aOsS+DnolnN6A5NXQHwmhwtBjh0lOg/L061eK9j4JH4=</Integrity>
+      <Fingerprint>18pa4xzoar</Fingerprint>
+      <Integrity>z4nXhNdNZqfp6rDOs+6DQvc2xNUSGRPNpDKrdKGdYF4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>

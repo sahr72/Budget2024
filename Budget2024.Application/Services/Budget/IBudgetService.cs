@@ -14,11 +14,11 @@ namespace Budget2024.Application.Services.Budget
         // Dans ce cas, il faudrait que la classe BudgetService implémente la'interface IBudgetService
         // Ne pas oublier d'enregistrer dans le contenaire d'injection de dépendances
 
-        Task<IEnumerable<BudgetDTO>> GetAllFilteredAsync(
-        Dictionary<string, string>? filters = null,
-        Dictionary<string, string>? sortOrder = null,
-        int pageNumber = 1,
-        int pageSize = 10);
+        //Task<IEnumerable<BudgetDTO>> GetAllFilteredAsync(
+        //Dictionary<string, string>? filters = null,
+        //Dictionary<string, string>? sortOrder = null,
+        //int pageNumber = 1,
+        //int pageSize = 10);
 
     }
 }

@@ -1,5 +1,122 @@
-@import '_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css';
+/* /Components/ConfirmDialog.razor.rz.scp.css */
+/* Modal Overlay */
+.modal.fade[b-fqzkyxg7js] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
 
+.modal.fade.show[b-fqzkyxg7js] {
+    opacity: 1;
+}
+
+/* Modal Dialog Box */
+.modal-dialog[b-fqzkyxg7js] {
+    max-width: 500px;
+    margin: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.modal-content[b-fqzkyxg7js] {
+    background-color: #ffffff;
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden;
+    animation: slide-down-b-fqzkyxg7js 0.3s ease; /* Slide-in effect */
+}
+
+/* Header */
+.modal-header[b-fqzkyxg7js] {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h5[b-fqzkyxg7js] {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #343a40;
+}
+
+.modal-header .close[b-fqzkyxg7js] {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+.modal-header .close:hover[b-fqzkyxg7js] {
+    color: #000;
+}
+
+/* Body */
+.modal-body[b-fqzkyxg7js] {
+    padding: 20px;
+    font-size: 1rem;
+    color: #495057;
+    text-align: center;
+}
+
+/* Footer */
+.modal-footer[b-fqzkyxg7js] {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+.modal-footer .btn[b-fqzkyxg7js] {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-footer .btn-secondary[b-fqzkyxg7js] {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.modal-footer .btn-secondary:hover[b-fqzkyxg7js] {
+    background-color: #5a6268;
+}
+
+.modal-footer .btn-danger[b-fqzkyxg7js] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.modal-footer .btn-danger:hover[b-fqzkyxg7js] {
+    background-color: #c82333;
+}
+
+/* Animations */
+@keyframes slide-down-b-fqzkyxg7js {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-x1w4tcdfah] {
     position: relative;

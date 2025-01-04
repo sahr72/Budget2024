@@ -101,17 +101,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.QuickGrid/8.0.11": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "8.0.11"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Components.QuickGrid.dll": {
-            "assemblyVersion": "8.0.11.0",
-            "fileVersion": "8.0.1124.52116"
-          }
-        }
-      },
       "Microsoft.AspNetCore.Components.Web/8.0.11": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "8.0.11",
@@ -811,7 +800,6 @@
           "AutoMapper": "13.0.1",
           "Budget2024.Application": "1.0.0",
           "Budget2024.Core": "1.0.0",
-          "Microsoft.AspNetCore.Components.QuickGrid": "8.0.11",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.11",
           "MudBlazor": "7.15.0"
         },
@@ -878,13 +866,6 @@
       "sha512": "sha512-60g+idqaiVhPVNOqauy/vH5lREpjcuKl3/w6zJhdU1PFWg4jtdoyIPQH+qxBKsUohkELhH3cRfzGRKElVuZuwg==",
       "path": "microsoft.aspnetcore.components.forms/8.0.11",
       "hashPath": "microsoft.aspnetcore.components.forms.8.0.11.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Components.QuickGrid/8.0.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xDxFxyniO4UDQNSB9HoNsIENHYqPRGtyuY/s0ZAcEjFJrIhaRFfW/lkfnvSdwWtLnR/0k+2BM6x6PkUFNRT5QQ==",
-      "path": "microsoft.aspnetcore.components.quickgrid/8.0.11",
-      "hashPath": "microsoft.aspnetcore.components.quickgrid.8.0.11.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.Web/8.0.11": {
       "type": "package",

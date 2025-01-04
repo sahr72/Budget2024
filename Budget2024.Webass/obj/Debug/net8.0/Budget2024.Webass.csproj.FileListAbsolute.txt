@@ -1213,6 +1213,8 @@ C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compr
 C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\aqtg5mb1y5-pgfly8l64v.gz
 C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\rc4z1xg2ns-mhkvb8f2r3.gz
 C:\Users\Lenovo\source\repos\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\jutxkb3u43-vi8bw05qkv.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\System.IO.Compression.ZipFile.dll
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\icudt_no_CJK.dat
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\AutoMapper.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Azure.Core.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Azure.Identity.wasm
@@ -1238,7 +1240,6 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.wasm
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.QuickGrid.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.wasm
@@ -1562,7 +1563,6 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\System.Security.Principal.wasm.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\WindowsBase.wasm.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Thread.wasm.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.QuickGrid.wasm.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Extensions.wasm.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Logging.wasm.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\wwwroot\_framework\System.Threading.ThreadPool.wasm.gz
@@ -1714,7 +1714,6 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
@@ -1809,7 +1808,6 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\System.Globalization.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\System.IO.Compression.Brotli.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\System.IO.Compression.FileSystem.dll
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\System.IO.Compression.ZipFile.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\System.IO.Compression.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\System.IO.FileSystem.AccessControl.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\System.IO.FileSystem.DriveInfo.dll
@@ -1941,7 +1939,6 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\dotnet.runtime.js.map
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\icudt_CJK.dat
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\icudt_EFIGS.dat
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\icudt_no_CJK.dat
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\emcc-props.json
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\Budget2024.Application.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\bin\Debug\net8.0\Budget2024.Core.dll
@@ -1962,7 +1959,6 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.QuickGrid.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Web.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.WebAssembly.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Metadata.wasm
@@ -2185,6 +2181,7 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Budget2024.Core.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Budget2024.Infrastructure.wasm
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\webcil\Budget2024.Webass.wasm
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\scopedcss\Components\ConfirmDialog.razor.rz.scp.css
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\scopedcss\bundle\Budget2024.Webass.styles.css
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\scopedcss\projectbundle\Budget2024.Webass.bundle.scp.css
@@ -2197,7 +2194,6 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\z1jtjt4op0-n5pslkucsz.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\dcpewu8fn1-zuiq2k1loo.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\3qrg8l8fkk-jm55dcm579.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\f0ysqyarmj-rgbnlkz8gk.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\1v0gk01joj-dd74gkrng6.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\7nv5ap1h7h-71qb4r2d2s.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\5o2hjsqrri-qd66sllxhh.gz
@@ -2426,10 +2422,15 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\y1o63k835v-tptq2av103.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\0682spx2ij-lfu7j35m59.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\iy927yn8hc-oyz0vx2fzb.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\qnvw79zfiz-zf7dwtj1zk.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\db9mkzcmc6-6qonia98ey.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\nf2v3bq0q3-4ve8ql6g9r.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\g4blgb6irm-hln4mutg76.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\62bjz2fddr-zwr2wuupfo.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\qnvw79zfiz-bxlx5fy5jl.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\db9mkzcmc6-7b4ew0omb3.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\8pv6qa8js8-6rw60gpzk6.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\nf2v3bq0q3-qwutp7dif5.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\g4blgb6irm-5teyksiben.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\aqtg5mb1y5-sh67q1bm7e.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\rc4z1xg2ns-oggpttknup.gz
+C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\jutxkb3u43-010fwkz6lh.gz
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -2445,8 +2446,3 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\refint\Budget2024.Webass.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\Budget2024.Webass.pdb
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\ref\Budget2024.Webass.dll
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\62bjz2fddr-get076iwa0.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\8pv6qa8js8-9fa8s8g8lo.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\aqtg5mb1y5-fc9nzmv2d6.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\rc4z1xg2ns-nkyda6mt23.gz
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Webass\obj\Debug\net8.0\compressed\jutxkb3u43-q23q9pftmj.gz

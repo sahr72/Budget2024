@@ -1,0 +1,74 @@
+﻿
+@inject IJSRuntime JS
+<div @ref="DialogElement" class="modal fade" tabindex="-1" role="dialog" style="display:none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">@Title</h5>
+                <button type="button" class="close" @onclick="Cancel" title="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>@Message</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" @onclick="Cancel" title="Cancel">Cancel</button>
+                <button type="button" class="btn btn-danger" @onclick="Confirm" title="Confirm">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private ElementReference DialogElement { get; set; }
+    [Parameter]
+    public string Title { get; set; } = "Confirmation";
+    [Parameter]
+    public string Message { get; set; }
+    [Parameter]
+    public EventCallback ConfirmClicked { get; set; }
+    [Parameter]
+    public EventCallback CancelClicked { get; set; }
+
+    
+
+    public async Task Show()
+    {
+        if (DialogElement.Context != null)
+        {
+            Console.WriteLine("Show method called");
+            await JS.InvokeVoidAsync("showConfirmModal", DialogElement);
+        }
+        else
+        {
+            Console.WriteLine("DialogElement is null");
+        }
+    }
+
+    public async Task Hide()
+    {
+        if (DialogElement.Context != null)
+        {
+            Console.WriteLine("Hide method called");
+            await JS.InvokeVoidAsync("hideConfirmModal", DialogElement);
+        }
+        else
+        {
+            Console.WriteLine("DialogElement is null");
+        }
+    }
+
+    private async Task Confirm()
+    {
+        await Hide();
+        await ConfirmClicked.InvokeAsync();
+    }
+
+    private async Task Cancel()
+    {
+        await Hide();
+        await CancelClicked.InvokeAsync();
+    }
+}
+

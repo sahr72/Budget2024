@@ -232,7 +232,6 @@ C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Tests\bin\Debug\net8.0\F
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
-C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
 C:\Users\U8m2\source\repos\sahr72\Budget2024\Budget2024.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll

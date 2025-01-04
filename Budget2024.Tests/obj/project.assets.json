@@ -158,28 +158,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.QuickGrid/8.0.11": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "8.0.11"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.AspNetCore.Components.QuickGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Components.QuickGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/Microsoft.AspNetCore.Components.QuickGrid.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.AspNetCore.Components.QuickGrid.props": {}
-        }
-      },
       "Microsoft.AspNetCore.Components.Web/8.0.11": {
         "type": "package",
         "dependencies": {
@@ -3149,7 +3127,6 @@
           "AutoMapper": "13.0.1",
           "Budget2024.Application": "1.0.0",
           "Budget2024.Core": "1.0.0",
-          "Microsoft.AspNetCore.Components.QuickGrid": "8.0.11",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.11",
           "MudBlazor": "7.15.0"
         },
@@ -3380,27 +3357,6 @@
         "lib/net8.0/Microsoft.AspNetCore.Components.Forms.xml",
         "microsoft.aspnetcore.components.forms.8.0.11.nupkg.sha512",
         "microsoft.aspnetcore.components.forms.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Components.QuickGrid/8.0.11": {
-      "sha512": "xDxFxyniO4UDQNSB9HoNsIENHYqPRGtyuY/s0ZAcEjFJrIhaRFfW/lkfnvSdwWtLnR/0k+2BM6x6PkUFNRT5QQ==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.components.quickgrid/8.0.11",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/Microsoft.AspNetCore.Components.QuickGrid.props",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "buildMultiTargeting/Microsoft.AspNetCore.Components.QuickGrid.props",
-        "buildTransitive/Microsoft.AspNetCore.Components.QuickGrid.props",
-        "lib/net8.0/Microsoft.AspNetCore.Components.QuickGrid.dll",
-        "lib/net8.0/Microsoft.AspNetCore.Components.QuickGrid.xml",
-        "microsoft.aspnetcore.components.quickgrid.8.0.11.nupkg.sha512",
-        "microsoft.aspnetcore.components.quickgrid.nuspec",
-        "staticwebassets/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
-        "staticwebassets/QuickGrid.razor.js"
       ]
     },
     "Microsoft.AspNetCore.Components.Web/8.0.11": {

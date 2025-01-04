@@ -1,0 +1,201 @@
+﻿@* 3. BudgetsManagement.razor (Updated)
+
+Purpose: Manages the list of budgets, form display, and CRUD operations.
+Key Elements:
+EditBudgetForm usage with different parameters based on the ShowFormType.
+CRUD operation handlers (SubmitNewBudget, SubmitEditedBudget, DeleteBudget). *@
+
+
+@page "/BudgetsManagement"
+@using Budget2024.Application.DTOs.Budget
+@using Budget2024.Application.Services.Budget
+
+<!-- Main Content -->
+<h3>Budgets Management</h3>
+
+@if (Budgets == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table" @onclick:stopPropagation>
+        <thead>
+            <tr>
+                <th>Budget ID</th>
+                <th>Code</th>
+                <th>Budget</th>
+                <th>Observation</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var budget in Budgets)
+            {
+                <tr>
+                    <td>@budget.BudgetId</td>
+                    <td>@budget.Code</td>
+                    <td>@budget.Budget1</td>
+                    <td>@budget.Obs</td>
+                    <td>
+                        @if (ShowFormType == FormType.None)
+                        {
+                            <button @onclick="(() => EditBudget(budget))">Edit</button>
+                            <button @onclick="(() => DeleteBudget(budget.BudgetId))">Delete</button>
+                        }
+                        @* <button @onclick="(() => EditBudget(budget))" disabled="@(ShowFormType != FormType.None)">Edit</button>
+                        <button @onclick="(() => DeleteBudget(budget.BudgetId))" disabled="@(ShowFormType != FormType.None)">Delete</button>*@
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @if (ShowFormType == FormType.None)
+    {
+        <button @onclick="ShowCreateForm" class="mt-2">Add New Budget</button>
+    }
+    @* <button @onclick="ShowCreateForm" class="mt-2" disabled="@(ShowFormType != FormType.None)">Add New Budget</button> *@
+
+    @if (ShowFormType == FormType.None)
+    {
+        <!-- Just the list -->
+    }
+    else if (ShowFormType == FormType.Create)
+    {
+        <EditBudgetForm 
+            IsNewBudget="true" 
+            BudgetDTO="@NewBudget" 
+            OnSubmit="SubmitNewBudget" 
+            OnCancel="HideForm">
+        </EditBudgetForm>
+    }
+    else if (ShowFormType == FormType.Edit && SelectedBudgetForEdit != null)
+    {
+        <EditBudgetForm 
+            IsNewBudget="false" 
+            BudgetDTO="@SelectedBudgetForEdit" 
+            OnSubmit="SubmitEditedBudget" 
+            OnCancel="HideForm">
+        </EditBudgetForm>
+    }
+}
+
+<ConfirmDialog @ref="ConfirmDialogRef"
+               Title="Delete Budget Confirmation"
+               ConfirmClicked="ConfirmDeleteBudget"
+               CancelClicked="CancelDeleteBudget">
+</ConfirmDialog>
+
+@code {
+    private enum FormType { None, Create, Edit }
+    private FormType ShowFormType { get; set; } = FormType.None;
+
+    private List<BudgetDTO> Budgets { get; set; } = new List<BudgetDTO>();
+    private BudgetDTO NewBudget { get; set; } = new BudgetDTO();
+    private BudgetDTO? SelectedBudgetForEdit { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadBudgetsAsync();
+    }
+
+    private async Task LoadBudgetsAsync()
+    {
+        //var httpClient = HttpClientFactory.CreateClient();
+        Budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>("https://localhost:7076/api/Budget/all") ?? new List<BudgetDTO>();
+    }
+
+    private void ShowCreateForm()
+    {
+        ShowFormType = FormType.Create;
+    }
+
+    private void EditBudget(BudgetDTO budget)
+    {
+        SelectedBudgetForEdit = budget;
+        ShowFormType = FormType.Edit;
+    }
+
+    private void HideForm()
+    {
+        ShowFormType = FormType.None;
+        SelectedBudgetForEdit = null;
+    }
+
+    private async Task SubmitNewBudget()
+    {
+        //var httpClient = HttpClientFactory.CreateClient();
+        var response = await Http.PostAsJsonAsync("https://localhost:7076/api/budget/create", NewBudget);
+
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadBudgetsAsync();
+            HideForm();
+            NewBudget = new BudgetDTO(); // Reset form
+        }
+        else
+        {
+            // Handle failure
+        }
+    }
+
+    private async Task SubmitEditedBudget()
+    {
+        //var httpClient = HttpClientFactory.CreateClient();
+        var response = await Http.PutAsJsonAsync($"https://localhost:7076/api/Budget/update/{SelectedBudgetForEdit.BudgetId}", SelectedBudgetForEdit);
+
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadBudgetsAsync();
+            HideForm();
+        }
+        else
+        {
+            // Handle failure
+        }
+    }
+
+    private async Task DeleteBudget(int budgetId)
+    {
+        BudgetIdToDelete = budgetId;
+        var budgetToDelete =  Budgets.FirstOrDefault(b => b.BudgetId == budgetId);
+        if (budgetToDelete != null)
+        {
+            ConfirmDialogRef.Message = $"Are you sure you want to delete Budget {budgetToDelete.Code} (ID: {budgetId})?";
+        }
+        else
+        {
+            ConfirmDialogRef.Message = $"Are you sure you want to delete Budget with ID {budgetId}?";
+        }
+        await ConfirmDialogRef.Show();
+    }
+
+    private ConfirmDialog? ConfirmDialogRef;
+    private int BudgetIdToDelete { get; set; }
+
+    private async Task ConfirmDeleteBudget()
+    {
+        // Actual deletion logic after confirmation
+        var response = await Http.DeleteAsync($"https://localhost:7076/api/budget/delete/{BudgetIdToDelete}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadBudgetsAsync();
+            Console.WriteLine("Budget deleted successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Failed to delete budget.");
+        }
+    }
+
+    private void CancelDeleteBudget()
+    {
+        BudgetIdToDelete = 0; // Reset
+        Console.WriteLine("Deletion cancelled.");
+    }
+
+}
+
+

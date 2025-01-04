@@ -7,7 +7,7 @@ public partial class Corps1
 {
     public int Corps1Id { get; set; }
 
-    public string Corps { get; set; } = null!;
+    public string Description { get; set; } = null!;
 
     public int FiliereId { get; set; }
 

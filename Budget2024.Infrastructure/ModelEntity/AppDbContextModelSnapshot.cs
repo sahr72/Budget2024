@@ -31,12 +31,6 @@ namespace Budget2024.Infrastructure.ModelEntity
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ArticleId"));
 
-                    b.Property<string>("Article1")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
-                        .HasColumnName("Article");
-
                     b.Property<int>("ChapitreId")
                         .HasColumnType("int")
                         .HasColumnName("ChapitreID");
@@ -45,6 +39,12 @@ namespace Budget2024.Infrastructure.ModelEntity
                         .IsRequired()
                         .HasMaxLength(6)
                         .HasColumnType("nvarchar(6)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Article");
 
                     b.Property<decimal>("EngIni")
                         .HasColumnType("money");
@@ -124,16 +124,16 @@ namespace Budget2024.Infrastructure.ModelEntity
                         .HasColumnType("int")
                         .HasColumnName("BudgetID");
 
-                    b.Property<string>("Chapitre1")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
-                        .HasColumnName("Chapitre");
-
                     b.Property<string>("CodeChap")
                         .IsRequired()
                         .HasMaxLength(12)
                         .HasColumnType("nvarchar(12)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Chapitre");
 
                     b.HasKey("ChapitreId");
 
@@ -154,7 +154,7 @@ namespace Budget2024.Infrastructure.ModelEntity
                         .HasMaxLength(5)
                         .HasColumnType("nvarchar(5)");
 
-                    b.Property<string>("Corps1")
+                    b.Property<string>("Description")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("Corps");
@@ -173,7 +173,7 @@ namespace Budget2024.Infrastructure.ModelEntity
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Corps1Id"));
 
-                    b.Property<string>("Corps")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
@@ -198,7 +198,7 @@ namespace Budget2024.Infrastructure.ModelEntity
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CorpsPrincipalId"));
 
-                    b.Property<string>("CorpsPr")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
@@ -458,7 +458,7 @@ namespace Budget2024.Infrastructure.ModelEntity
                         .HasColumnType("nvarchar(4)")
                         .HasColumnName("COIM");
 
-                    b.Property<string>("Ind")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(60)
                         .HasColumnType("nvarchar(60)")

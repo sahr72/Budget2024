@@ -19,8 +19,8 @@ namespace Budget2024.Core.DomainEntities
 
         public decimal Reste { get; set; }
 
-        public virtual Chapitre Chapitre { get; set; } = null!;
+        //public virtual Chapitre Chapitre { get; set; } = null!;
 
-        public virtual ICollection<Indemnite> Indemnites { get; set; } = new List<Indemnite>();
+        //public virtual ICollection<Indemnite> Indemnites { get; set; } = new List<Indemnite>();
     }
 }

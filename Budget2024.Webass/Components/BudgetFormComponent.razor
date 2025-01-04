@@ -1,7 +1,7 @@
 ﻿@using Budget2024.Application.DTOs
 @using Budget2024.Application.DTOs.Budget
-
-
+@* @using Microsoft.AspNetCore.Components.Web;
+@inject IJSRuntime JS *@
 <div class="budget-form">
     <h3>@(Budget?.BudgetId == 0 ? "Add Budget" : "Update Budget")</h3>
 
@@ -13,10 +13,14 @@
             <label for="Code">Code:</label>
             <InputText id="Code" class="form-control" @bind-Value="Budget.Code" />
         </div>
-
+       @*  <div class="form-group">
+            <label for="Code">Code:</label>
+            <InputText @ref="CodeInputComponent" id="Code" class="form-control" @bind-Value="Budget.Code" />
+        </div>
+         *@
         <div class="form-group">
-            <label for="Budget1">Budget Amount:</label>
-            <InputNumber id="Budget1" class="form-control" @bind-Value="Budget.Budget1" />
+            <label for="Budget1">Description:</label>
+            <InputText id="Budget1" class="form-control" @bind-Value="Budget.Budget1" />
         </div>
 
         <div class="form-group">
@@ -35,6 +39,24 @@
     [Parameter] public BudgetDTO? Budget { get; set; }
     [Parameter] public EventCallback<BudgetDTO> OnSave { get; set; }
     [Parameter] public EventCallback OnCancel { get; set; }
+
+    // private InputText? CodeInputComponent; // Reference to the InputText component
+    // private ElementReference? _elementReference; // Ajout d'une référence à l'élément
+
+    // protected override void OnAfterRender(bool firstRender)
+    // {
+    //     if (firstRender)
+    //     {
+    //         _elementReference = CodeInputComponent.Element;
+    //         JS.InvokeVoidAsync("focusElement", _elementReference);
+    //     }
+    // }
+
+    // protected override void OnInitialized()
+    // {
+    //     _elementReference = null;
+    // }
+
 
     private async Task HandleValidSubmit()
     {

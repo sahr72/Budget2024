@@ -1,21 +1,21 @@
 [
   {
-    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.BudgetDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Budget, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-    "Method": "Create",
-    "RelativePath": "api/Budget",
-    "HttpMethod": "POST",
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ArticleDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Article, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Article/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "Budget2024.Application.DTOs.Budget.BudgetDTO",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Budget2024.Application.DTOs.Budget.BudgetDTO",
+        "Type": "Budget2024.Application.DTOs.Budget.ArticleDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -24,6 +24,130 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ArticleDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Article, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Article/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Budget2024.Application.DTOs.Budget.ArticleDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ArticleDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Article, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Article/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Budget2024.Application.DTOs.Budget.ArticleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Budget2024.Application.DTOs.Budget.ArticleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ArticleDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Article, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Article/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ArticleDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Article, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllFilteredAsync",
+    "RelativePath": "api/Article/filtered",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filters",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortOrder",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Budget2024.Application.DTOs.Budget.ArticleDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ArticleDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Article, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Article/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Budget2024.Application.DTOs.Budget.ArticleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.BudgetDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Budget, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -53,43 +177,6 @@
   },
   {
     "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.BudgetDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Budget, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-    "Method": "Update",
-    "RelativePath": "api/Budget/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "dto",
-        "Type": "Budget2024.Application.DTOs.Budget.BudgetDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.BudgetDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Budget, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-    "Method": "Delete",
-    "RelativePath": "api/Budget/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.BudgetDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Budget, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAllAsync",
     "RelativePath": "api/Budget/all",
     "HttpMethod": "GET",
@@ -107,6 +194,48 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.BudgetDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Budget, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Budget/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Budget2024.Application.DTOs.Budget.BudgetDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Budget2024.Application.DTOs.Budget.BudgetDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.BudgetDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Budget, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Budget/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.BudgetDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Budget, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -148,6 +277,347 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.BudgetDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Budget, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Budget/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Budget2024.Application.DTOs.Budget.BudgetDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ChapitreDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Chapitre, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Chapitre/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Budget2024.Application.DTOs.Budget.ChapitreDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ChapitreDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Chapitre, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Chapitre/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Budget2024.Application.DTOs.Budget.ChapitreDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ChapitreDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Chapitre, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Chapitre/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Budget2024.Application.DTOs.Budget.ChapitreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Budget2024.Application.DTOs.Budget.ChapitreDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ChapitreDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Chapitre, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Chapitre/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ChapitreDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Chapitre, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllFilteredAsync",
+    "RelativePath": "api/Chapitre/filtered",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filters",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortOrder",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Budget2024.Application.DTOs.Budget.ChapitreDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ChapitreDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Chapitre, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Chapitre/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Budget2024.Application.DTOs.Budget.ChapitreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.IndemniteDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Indemnite, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Indemnite/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Budget2024.Application.DTOs.Budget.IndemniteDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.IndemniteDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Indemnite, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Indemnite/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Budget2024.Application.DTOs.Budget.IndemniteDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.IndemniteController",
+    "Method": "GetAllWithRelatedEntitiesAsync",
+    "RelativePath": "api/Indemnite/all-with-related",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Budget2024.Application.DTOs.Budget.IndemniteDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.IndemniteDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Indemnite, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Indemnite/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Budget2024.Application.DTOs.Budget.IndemniteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Budget2024.Application.DTOs.Budget.IndemniteDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.IndemniteDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Indemnite, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Indemnite/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.IndemniteDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Indemnite, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllFilteredAsync",
+    "RelativePath": "api/Indemnite/filtered",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filters",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortOrder",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Budget2024.Application.DTOs.Budget.IndemniteDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.IndemniteDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Indemnite, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Indemnite/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Budget2024.Application.DTOs.Budget.IndemniteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Budget2024.Api.Controllers.WeatherForecastController",

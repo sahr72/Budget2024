@@ -161,7 +161,7 @@ public partial class AppDbContext : DbContext
             entity.ToTable("Corps1s", "statutPartic");
 
             entity.Property(e => e.Corps1Id).HasColumnName("Corps1ID");
-            entity.Property(e => e.Corps).HasMaxLength(50);
+            entity.Property(e => e.Description).HasMaxLength(50);
             entity.Property(e => e.FiliereId).HasColumnName("FiliereID");
 
             entity.HasOne(d => d.Filiere).WithMany(p => p.Corps1s)
@@ -175,7 +175,7 @@ public partial class AppDbContext : DbContext
             entity.ToTable("CorpsPrincipals", "statutPartic");
 
             entity.Property(e => e.CorpsPrincipalId).HasColumnName("CorpsPrincipalID");
-            entity.Property(e => e.CorpsPr).HasMaxLength(50);
+            entity.Property(e => e.Description).HasMaxLength(50);
         });
 
         modelBuilder.Entity<Exercice>(entity =>

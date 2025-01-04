@@ -16,7 +16,6 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)mudblazor\7.15.0\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\7.15.0\buildTransitive\MudBlazor.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.11\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.11\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.quickgrid\8.0.11\buildTransitive\Microsoft.AspNetCore.Components.QuickGrid.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.quickgrid\8.0.11\buildTransitive\Microsoft.AspNetCore.Components.QuickGrid.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\U8m2\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\8.0.11</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>

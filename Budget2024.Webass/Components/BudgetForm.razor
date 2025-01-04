@@ -1,0 +1,61 @@
+﻿@* 1. BudgetForm.razor (New Component)
+
+Purpose: Contains the form markup and logic for creating or editing a budget.
+Key Elements:
+@bind directives for two-way binding between form inputs and BudgetDTO properties.
+IsNewBudget parameter to toggle between "Create" and "Update" button text.
+OnSubmit and OnCancel event callbacks to handle form submission and cancellation, respectively. *@
+@using Budget2024.Application.DTOs.Budget
+@using Budget2024.Application.Services.Budget
+
+<form @onsubmit="HandleSubmit" class="mt-4">
+    <div class="form-group">
+        <label for="code">Code:</label>
+        <input id="code" class="form-control" @bind="BudgetDTO.Code" />
+    </div>
+    <div class="form-group">
+        <label for="budget">Budget:</label>
+        <input id="budget" class="form-control" @bind="BudgetDTO.Budget1" />
+    </div>
+    <div class="form-group">
+        <label for="obs">Observation:</label>
+        <textarea id="obs" class="form-control" @bind="BudgetDTO.Obs"></textarea>
+    </div>
+    <div class="form-group">
+        @if (IsNewBudget)
+        {
+            <button type="submit" class="btn btn-primary">Create</button>
+        }
+        else
+        {
+            <button type="submit" class="btn btn-primary">Update</button>
+        }
+        <button type="button" @onclick="HandleCancel" class="btn btn-secondary">Cancel</button>
+    </div>
+</form>
+
+@code {
+    [Parameter]
+    public bool IsNewBudget { get; set; }
+
+    [Parameter]
+    public BudgetDTO BudgetDTO { get; set; }
+
+    [Parameter]
+    public EventCallback OnSubmit { get; set; }
+
+    [Parameter]
+    public EventCallback OnCancel { get; set; }
+
+    private async Task HandleSubmit()
+    {
+        await OnSubmit.InvokeAsync();
+    }
+
+    private async Task HandleCancel()
+    {
+        await OnCancel.InvokeAsync();
+    }
+}
+
+

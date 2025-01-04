@@ -1,25 +1,24 @@
-﻿@using MudBlazor
-@using Budget2024.Application.DTOs
+﻿@using Budget2024.Application.DTOs
 @using Budget2024.Application.DTOs.Budget
 
 
-<MudTable Items="@Budgets" Hover="true" Filter="FilterFunc" @bind-SelectedItem="SelectedBudget" Bordered="true" Striped="true">
+<MudTable Items="@Budgets" Hover="true" Filter="FilterFunc" @bind-SelectedItem="SelectedBudget" Bordered="true" Striped="true" RowClassFunc="GetRowClass">
     <ToolBarContent>
         <MudText Typo="Typo.h6">Budget List</MudText>
         <MudSpacer />
-        <MudTextField @bind-Value="_searchString" Placeholder="Search..." Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" Immediate="true" />
+        <MudTextField @bind-Value="_searchString" Placeholder="Rechercher..." Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" Immediate="true" />
     </ToolBarContent>
     <HeaderContent>
         <MudTh>Budget ID</MudTh>
         <MudTh>Code</MudTh>
-        <MudTh>Amount</MudTh>
+        <MudTh>Description</MudTh>
         <MudTh>Observation</MudTh>
     </HeaderContent>
     <RowTemplate>
-        <MudTd DataLabel="Budget ID">@SelectedBudget.BudgetId</MudTd>
-        <MudTd DataLabel="Code">@SelectedBudget.Code</MudTd>
-        <MudTd DataLabel="Amount">@SelectedBudget.Budget1</MudTd>
-        <MudTd DataLabel="Observation">@SelectedBudget.Obs</MudTd>
+        <MudTd DataLabel="Budget ID">@context.BudgetId</MudTd>
+        <MudTd DataLabel="Code">@context.Code</MudTd>
+        <MudTd DataLabel="Description">@context.Budget1</MudTd>
+        <MudTd DataLabel="Observation">@context.Obs</MudTd>
     </RowTemplate>
     <PagerContent>
         <MudTablePager />
@@ -28,7 +27,7 @@
 
 @code {
     [Parameter]
-    public List<BudgetDTO> Budgets { get; set; } = new();
+    public List<BudgetDTO> Budgets { get; set; }// = new();
 
     [Parameter]
     public EventCallback<BudgetDTO> OnRowSelected { get; set; }
@@ -53,4 +52,10 @@
             await OnRowSelected.InvokeAsync(SelectedBudget);
         }
     }
+    private string GetRowClass(BudgetDTO budget, int rowIndex)
+    {
+        // Highlight selected row with a custom CSS class
+        return budget == SelectedBudget ? "selected-row" : string.Empty;
+    }
+
 }

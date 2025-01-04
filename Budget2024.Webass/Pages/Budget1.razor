@@ -1,0 +1,204 @@
+﻿@page "/Budget1"
+@using Budget2024.Application.DTOs.Budget
+@using Budget2024.Application.Services.Budget
+
+@* @inject IHttpClientFactory HttpClientFactory *@
+
+<!-- Main Content -->
+<h3>Budgets Management</h3>
+
+@if (Budgets == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table" @onclick:stopPropagation>
+        <thead>
+            <tr>
+                <th>Budget ID</th>
+                <th>Code</th>
+                <th>Budget</th>
+                <th>Observation</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var budget in Budgets)
+            {
+                <tr>
+                    <td>@budget.BudgetId</td>
+                    <td>@budget.Code</td>
+                    <td>@budget.Budget1</td>
+                    <td>@budget.Obs</td>
+                    <td>
+                        <button @onclick="(() => EditBudget(budget))">Edit</button>
+                        <button @onclick="(() => DeleteBudget(budget.BudgetId))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button @onclick="ShowCreateForm" class="mt-2">Add New Budget</button>
+
+    @if (ShowFormType == FormType.None)
+    {
+        <!-- Just the list -->
+    }
+    else if (ShowFormType == FormType.Create)
+    {
+        <EditBudgetForm IsNewBudget="true" BudgetDTO="@NewBudget" OnSubmit="SubmitNewBudget" OnCancel="HideForm"></EditBudgetForm>
+    }
+    else if (ShowFormType == FormType.Edit && SelectedBudgetForEdit != null)
+    {
+        <EditBudgetForm IsNewBudget="false" BudgetDTO="@SelectedBudgetForEdit" OnSubmit="SubmitEditedBudget" OnCancel="HideForm"></EditBudgetForm>
+    }
+}
+
+@code {
+    private enum FormType { None, Create, Edit }
+    private FormType ShowFormType { get; set; } = FormType.None;
+
+    private List<BudgetDTO> Budgets { get; set; } = new List<BudgetDTO>();
+    private BudgetDTO NewBudget { get; set; } = new BudgetDTO();
+    private BudgetDTO SelectedBudgetForEdit { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadBudgetsAsync();
+    }
+
+    private async Task LoadBudgetsAsync()
+    {
+        //var httpClient = HttpClientFactory.CreateClient();
+        Budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>("https://localhost:7076/api/Budget/all") ?? new List<BudgetDTO>();
+    }
+
+    private void ShowCreateForm()
+    {
+        ShowFormType = FormType.Create;
+    }
+
+    private void EditBudget(BudgetDTO budget)
+    {
+        SelectedBudgetForEdit = budget;
+        ShowFormType = FormType.Edit;
+    }
+
+    private void HideForm()
+    {
+        ShowFormType = FormType.None;
+        SelectedBudgetForEdit = null;
+    }
+
+    private async Task SubmitNewBudget()
+    {
+        //var httpClient = HttpClientFactory.CreateClient();
+        var response = await Http.PostAsJsonAsync("https://localhost:7076/api/Budget/create", NewBudget);
+        
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadBudgetsAsync();
+            HideForm();
+            NewBudget = new BudgetDTO(); // Reset form
+        }
+        else
+        {
+            // Handle failure
+        }
+    }
+
+    private async Task SubmitEditedBudget()
+    {
+        //var httpClient = HttpClientFactory.CreateClient();
+        var response = await Http.PutAsJsonAsync($"https://localhost:7076/api/Budget/update/{SelectedBudgetForEdit.BudgetId}", SelectedBudgetForEdit);
+        
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadBudgetsAsync();
+            HideForm();
+        }
+        else
+        {
+            // Handle failure
+        }
+    }
+
+    private async Task DeleteBudget(int budgetId)
+    {
+        //var httpClient = HttpClientFactory.CreateClient();
+        var response = await Http.DeleteAsync($"https://localhost:7076/api/Budget/delete/{budgetId}");
+        
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadBudgetsAsync();
+        }
+        else
+        {
+            // Handle failure
+        }
+    }
+}
+
+<!-- Nested Component: EditBudgetForm -->
+<EditBudgetForm>
+    
+
+    <form @onsubmit="HandleSubmit" class="mt-4">
+        <div class="form-group">
+            <label for="code">Code:</label>
+            <input id="code" class="form-control" @bind="BudgetDTO.Code" />
+        </div>
+        <div class="form-group">
+            <label for="budget">Budget:</label>
+            <input id="budget" class="form-control" @bind="BudgetDTO.Budget1" />
+        </div>
+        <div class="form-group">
+            <label for="obs">Observation:</label>
+            <textarea id="obs" class="form-control" @bind="BudgetDTO.Obs"></textarea>
+        </div>
+        <div class="form-group">
+            @if (IsNewBudget)
+            {
+                <button type="submit" class="btn btn-primary">Create</button>
+            }
+            else
+            {
+                <button type="submit" class="btn btn-primary">Update</button>
+            }
+            <button type="button" @onclick="HandleCancel" class="btn btn-secondary">Cancel</button>
+        </div>
+    </form>
+
+    @code {
+        [Parameter]
+        public RenderFragment ChildContent { get; set; }
+
+
+        [Parameter]
+        public bool IsNewBudget { get; set; }
+
+        [Parameter]
+        public BudgetDTO BudgetDTO { get; set; }
+
+        [Parameter]
+        public EventCallback OnSubmit { get; set; }
+
+        [Parameter]
+        public EventCallback OnCancel { get; set; }
+
+        private async Task HandleSubmit()
+        {
+        await OnSubmit.InvokeAsync();
+        }
+
+        private async Task HandleCancel()
+        {
+        await OnCancel.InvokeAsync();
+        }
+    }
+
+   
+
+</EditBudgetForm>

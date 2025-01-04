@@ -1,5 +1,6 @@
 
 
+
 #app {
     position: fixed;
     top: 0;
@@ -274,3 +275,9 @@ main {
             outline: none;
             border-color: var(--mud-textfield-focused-border-color); /* Use focus color */
         }
+.selected-row {
+    background-color: #e0f7fa; /* Light cyan */
+    color: #00796b; /* Dark teal */
+    font-weight: bold;
+}
+

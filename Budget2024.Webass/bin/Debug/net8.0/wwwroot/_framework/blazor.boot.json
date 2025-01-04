@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Budget2024.Webass",
   "resources": {
-    "hash": "sha256-f+f2Anrys++ccHBtdhCKfl1eEm+qizvQuRphKb0sRyQ=",
+    "hash": "sha256-Sv8L2PIK+jtXolJ9cua1xIzkPbb9LFLt7oYgX3LUBCU=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -24,7 +24,6 @@
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-W1OqRV83imd3SG/v4PAlCa5m/3RA9n5ysXT7G46jKKc=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-BbzyjRS+gcf0R8v27CSNdTK4vm9XoqKz4NEhk7LK+dY=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-uygu36HN/qUHLMopvhHgNiRvJHtoPqdkgtGxxdr1nY8=",
-      "Microsoft.AspNetCore.Components.QuickGrid.wasm": "sha256-y86gp0pEHp4LVpw3Emv0AH2Sslod3IkGPUYe6zaRcto=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-UU6I5F0N8ug+LyO1a+cyei0lfnhnCs+D82yuv75LZ00=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-dXe4uTusEtqngejTMWRpHZpLCVz9HGNmy3OIHFQvF04=",
       "Microsoft.AspNetCore.Metadata.wasm": "sha256-Mvq2Fy4bw77m1ECnG7otq2ctOhvymfaC9ksNUcgOa7M=",
@@ -243,16 +242,16 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "Budget2024.Application.wasm": "sha256-2PNUTx2u3ClkLv2SjD5l2+mFL/wnj/QtUMxS9JwqmVU=",
-      "Budget2024.Core.wasm": "sha256-EXVeQqoqwv/Hd57wcySEj7+wc+v0oGpD81xRfYqGUcs=",
-      "Budget2024.Infrastructure.wasm": "sha256-EtmXNRQwrVyTbu2v2m/ZXwQWZnC6QegW57twcFNL4PA=",
-      "Budget2024.Webass.wasm": "sha256-8eWPwJXaPl3kVXjS3QE0d18PSnRHL8aia0eWfzbXOmc="
+      "Budget2024.Application.wasm": "sha256-03H87JkrvzpuxC/MjeMLzfokV+u1or8cYc/9yLnTjXU=",
+      "Budget2024.Core.wasm": "sha256-wfFpPUpb42uXN9q5zPrqlxD5JMiO8rV9pP5CIn52+3o=",
+      "Budget2024.Infrastructure.wasm": "sha256-rdK3vvRFcgXJdsixYRzCwLq6dcPRjrtzie//TvhK7o0=",
+      "Budget2024.Webass.wasm": "sha256-oEpYwj3GnTdGSpUrwIaPbkEDt31mbYYWC9T4ovB/zIY="
     },
     "pdb": {
-      "Budget2024.Application.pdb": "sha256-xaLg/Hj/bokNZx3SCoaP7ne0Zzg2TdcW/Db+NtnhscY=",
-      "Budget2024.Core.pdb": "sha256-QCuDhePCt+t+1C8xLObceWgk4/nMrPAnoKKNz5ptVNI=",
-      "Budget2024.Infrastructure.pdb": "sha256-i9GhObqwZC+12YAd/+FbxqYOj68LxqUH5IcYXuJDoyA=",
-      "Budget2024.Webass.pdb": "sha256-uU0/rzF4KdmPesgvA/cD5HM31hR/ItaixQfuvjnwR8U="
+      "Budget2024.Application.pdb": "sha256-Uns28InVzMJSJkNmvzLdAV9omBL9q08NhQzoJp5gPkE=",
+      "Budget2024.Core.pdb": "sha256-usYnrRvrL7ArxbFO9ph1/IwYUjMpkQhuKc+f77Zl7cw=",
+      "Budget2024.Infrastructure.pdb": "sha256-eeMoW3KgUOZte3zoOAjMOHZixiDAqqLwmdn9ZF83kaw=",
+      "Budget2024.Webass.pdb": "sha256-aA/7itS5Zy+zOfqHIi23ZbfevYEoMn8pP4JA9WegiDk="
     }
   },
   "cacheBootResources": true,

@@ -7,7 +7,7 @@ public partial class CorpsPrincipal
 {
     public int CorpsPrincipalId { get; set; }
 
-    public string CorpsPr { get; set; } = null!;
+    public string Description { get; set; } = null!;
 
     public virtual ICollection<Filiere> Filieres { get; set; } = new List<Filiere>();
 }

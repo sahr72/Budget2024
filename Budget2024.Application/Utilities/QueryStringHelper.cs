@@ -22,6 +22,7 @@ namespace Budget2024.Application.Utilities
                 foreach (var filter in filters)
                 {
                     queryParams.Add($"filters[{filter.Key}]={Uri.EscapeDataString(filter.Value)}");
+                    
                 }
             }
 

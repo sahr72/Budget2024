@@ -51,7 +51,7 @@ namespace Budget2024.Api.Controllers
         }
 
         //POST: api/{entity}
-            [HttpPost]
+            [HttpPost("create")]
         public async Task<ActionResult<TDto>> Create([FromBody] TDto dto)
         {
             if (!ModelState.IsValid)
@@ -63,8 +63,8 @@ namespace Budget2024.Api.Controllers
         }
 
 
-        // PUT: api/{entity}/{id}
-        [HttpPut("{id:int}")]
+        // PUT: api/{entity}/{id} [HttpPut("update/{budgetId}")]
+        [HttpPut("update/{id:int}")]
         public async Task<IActionResult> Update(int id, [FromBody] TDto dto)
         {
             if (!ModelState.IsValid)
@@ -76,7 +76,7 @@ namespace Budget2024.Api.Controllers
         }
 
         // Delete an entity by ID
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var exists = await _genericService.ExistsAsync(id);
