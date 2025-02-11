@@ -43,6 +43,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCdWRnZXRHcmlkQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/U8m2/source/repos/sahr72/Budget2024/Budget2024.Webass/Components/Chapitre/AddEditChapitreDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFwaXRyZVxBZGRFZGl0Q2hhcGl0cmVEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/U8m2/source/repos/sahr72/Budget2024/Budget2024.Webass/Components/EditBudgetForm.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFZGl0QnVkZ2V0Rm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -63,6 +67,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5NZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/U8m2/source/repos/sahr72/Budget2024/Budget2024.Webass/Pages/ArticleManagement.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZU1hbmFnZW1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/U8m2/source/repos/sahr72/Budget2024/Budget2024.Webass/Pages/Budget.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVkZ2V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -73,6 +81,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/U8m2/source/repos/sahr72/Budget2024/Budget2024.Webass/Pages/BudgetsManagement.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVkZ2V0c01hbmFnZW1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/U8m2/source/repos/sahr72/Budget2024/Budget2024.Webass/Pages/ChapitreManagement1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcGl0cmVNYW5hZ2VtZW50MS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/U8m2/source/repos/sahr72/Budget2024/Budget2024.Webass/Pages/ChapitresManagement.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcGl0cmVzTWFuYWdlbWVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/U8m2/source/repos/sahr72/Budget2024/Budget2024.Webass/Pages/Counter.razor]

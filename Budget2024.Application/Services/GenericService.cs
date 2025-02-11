@@ -22,6 +22,42 @@ namespace Budget2024.Application.Services
             _mapper = mapper;
         }
 
+        // Update an existing entity
+        public async Task<TDto> UpdateAsync(int id, TDto dto)
+        {
+            // Fetch the entity by ID
+            var entity = await _repository.GetByIdAsync(id);
+            if (entity == null)
+            {
+                throw new KeyNotFoundException($"Entity with ID {id} not found.");
+            }
+
+            // Map updated data from DTO to the entity
+            _mapper.Map(dto, entity);
+
+            // Call repository to update the entity
+            await _repository.UpdateAsync(entity);
+
+            // Return the updated entity as a DTO
+            return _mapper.Map<TDto>(entity);
+        }
+
+        //public async Task UpdateAsync(int id, TDto dto)
+        //{
+        //    var entity = await _repository.GetByIdAsync(id);
+        //    if (entity == null)
+        //    {
+        //        // Handle entity not found case (throw exception or return a result)
+        //        throw new KeyNotFoundException($"Entity with ID {id} not found.");
+        //    }
+
+        //    // Map updated data from DTO to the entity
+        //    _mapper.Map(dto, entity);
+
+        //    // Call repository to update the entity
+        //    await _repository.UpdateAsync(entity);
+        //}
+
         // Add a new entity
         public async Task<TDto> AddAsync(TDto dto)
         {
@@ -89,22 +125,12 @@ namespace Budget2024.Application.Services
             return entity != null ? _mapper.Map<TDto>(entity) : null;
         }
 
-        // Update an existing entity
-        public async Task UpdateAsync(int id, TDto dto)
-        {
-            var entity = await _repository.GetByIdAsync(id);
-            if (entity == null)
-            {
-                // Handle entity not found case (throw exception or return a result)
-                throw new KeyNotFoundException($"Entity with ID {id} not found.");
-            }
+        
 
-            // Map updated data from DTO to the entity
-            _mapper.Map(dto, entity);
-
-            // Call repository to update the entity
-            await _repository.UpdateAsync(entity);
-        }
+        //Task<TDto> IGenericService<TDto, TEntity>.UpdateAsync(int id, TDto dto)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
 //    public class GenericService<TDto, TEntity> :IGenericService<TDto>

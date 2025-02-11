@@ -1,0 +1,28 @@
+﻿@using Budget2024.Application.DTOs.Budget
+@* @inject MudBlazor.IDialogService DialogService *@
+@inject MudBlazor.MudDialogInstance MudDialog 
+
+
+<MudDialog>
+    <DialogContent>
+        <MudTextField @bind-Value="EditingChapitre.CodeChap" Label="Code Chapitre" Required="true" />
+        <MudTextField @bind-Value="EditingChapitre.Chapitre1" Label="Chapitre" Required="true" />
+        <MudButton OnClick="Save">Save</MudButton>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+    </DialogContent>
+</MudDialog>
+
+@code {
+    [Parameter]
+    public ChapitreDTO EditingChapitre { get; set; } = new();
+
+    private void Save()
+    {
+        MudDialog.Close(DialogResult.Ok(EditingChapitre));
+    }
+
+    private void Cancel()
+    {
+        MudDialog.Cancel();
+    }
+}

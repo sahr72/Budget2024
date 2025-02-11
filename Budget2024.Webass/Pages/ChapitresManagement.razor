@@ -1,0 +1,204 @@
+﻿@page "/ChapitresManagement"
+@using Budget2024.Application.DTOs.Budget
+@using Budget2024.Application.Services
+@using Budget2024.Application.Services.Budget
+@using Budget2024.Application.Services.Chapitre
+@using Budget2024.Webass.Components.Chapitre
+@inject MudBlazor.IDialogService DialogService
+@inject IChapitreService ChapitreService 
+@inject IBudgetService BudgetService
+@inject ISnackbar Snackbar
+@* @inject MudDialogInstance MudDialog *@
+
+<PageTitle>Chapitre Management</PageTitle>
+@*   <div>
+
+    @if (Budgets != null && Budgets.Any())
+    {
+        <label for="budgetSelect">Select Budget</label>
+        <select id="budgetSelect" @bind="SelectedBudgetId">
+            <option value=-1>-- Select a Budget --</option>
+            @foreach (var budget in Budgets)
+            {
+                <option value="@budget.BudgetId">@budget.Budget1</option>
+            }
+        </select>
+    }
+    else
+    {
+        <p>No budgets available.</p>
+    }
+</div>  
+*@
+
+<MudContainer>
+    <MudGrid>
+        <MudItem xs="12">
+            <MudSelect T="BudgetDTO" Label="Select Budget" Value="SelectedBudget"
+                       ValueChanged="OnSelectedBudgetChanged" Dense="true">
+                @foreach (var budget in Budgets)
+                {
+                    <MudSelectItem T="BudgetDTO" Value="@budget">@budget.Budget1</MudSelectItem>
+                }
+            </MudSelect>
+        </MudItem>
+
+        
+        <MudItem xs="12">
+            <MudTable Items="@Chapitres" Dense="true" Hover="true" RowClick="EditChapitre">
+                <ToolBarContent>
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ShowAddModal">
+                        Add Chapitre
+                    </MudButton>
+                </ToolBarContent>
+                <HeaderContent>
+                    <MudTh>Code Chapitre</MudTh>
+                    <MudTh>Chapitre</MudTh>
+                    <MudTh>Budget Description</MudTh>
+                    <MudTh>Actions</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd>@context.CodeChap</MudTd>
+                    <MudTd>@context.Chapitre1</MudTd>
+                    <MudTd>@context.BudgetDescription</MudTd>
+                    <MudTd>
+                        <MudButton Icon="Edit" Variant="Variant.Text" OnClick="@(() => EditChapitre(context))" />
+                        <MudButton Icon="Delete" Variant="Variant.Text" Color="Color.Error"
+                        OnClick="@(() => DeleteChapitre(context))" />
+                    </MudTd>
+                </RowTemplate>
+            </MudTable>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
+
+@code {
+    private List<BudgetDTO> Budgets = new();
+    private List<ChapitreDTO> Chapitres = new();
+    // private int? _selectedBudgetId;
+    // private int? SelectedBudgetId // Bind to BudgetId instead of the entire BudgetDTO
+    // {
+    //     get => _selectedBudgetId;
+    //     set
+    //     {
+    //         if (_selectedBudgetId != value)
+    //         {
+    //             _selectedBudgetId = value;
+    //             OnBudgetChanged();
+    //         }
+    //     }
+    // }
+    private BudgetDTO? SelectedBudget { get; set; } // Hold the selected BudgetDTO object
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadBudgets();
+    }
+
+    private async Task LoadBudgets()
+    {
+        Budgets = await Http.GetFromJsonAsync<List<BudgetDTO>>("https://localhost:7076/api/Budget/all");// ?? new List<BudgetDTO>();
+        // (await BudgetService.GetAllAsync()).ToList();
+    }
+
+    private async Task LoadChapitresByBudget(BudgetDTO budget)
+    {
+        if (budget == null)
+        {
+            Chapitres.Clear();
+            return;
+        }
+        try
+        {
+        string url = $"https://localhost:7076/api/Chapitre/by-budget/{budget.BudgetId}";
+        Chapitres = await Http.GetFromJsonAsync<List<ChapitreDTO>>(url);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Error loading Chapitres: {e.Message}");
+            Chapitres?.Clear(); // Clear the list in case of an error
+        }
+        
+        //Chapitres = await Http.GetFromJsonAsync<List<ChapitreDTO>>("https://localhost:7076/api/Chapitre/by-budget/budgetId");//(await ChapitreService.GetAllChapitreByBudgetAsync(budget.BudgetId)).ToList();
+    }
+    private async Task OnSelectedBudgetChanged(BudgetDTO newBudget)
+    {
+        SelectedBudget = newBudget;
+        await LoadChapitresByBudget(SelectedBudget);
+    }
+   @*  private void OnBudgetChanged()
+    {
+        SelectedBudget = Budgets.FirstOrDefault(b => b.BudgetId == SelectedBudgetId);
+        if (SelectedBudget != null)
+        {
+            Console.WriteLine($"Selected Budget: {SelectedBudget.Budget1}");
+        }
+        else
+        {
+            Console.WriteLine("No budget selected.");
+        }
+    } *@
+    private async Task ShowAddModal()
+    {
+        var parameters = new DialogParameters
+        {
+            { "EditingChapitre", new ChapitreDTO { BudgetId = SelectedBudget?.BudgetId ?? 0 } }
+        };
+
+        //var dialog = DialogService.Show<AddEditChapitreDialog>("Add Chapitre", parameters);
+        //var result = await dialog.Result;
+        var dialog = await DialogService.ShowAsync<AddEditChapitreDialog>("Add Chapitre", parameters);
+        var result = await dialog.Result; 
+        if (result?.Canceled == false) //s'assurer que la boite de dialogue n'a pas été annulée
+        {
+            var newChapitre = result.Data as ChapitreDTO;
+            if (newChapitre != null)
+            {
+                Chapitres.Insert(0, newChapitre); // Add at the top of the list
+                Snackbar.Add("Chapitre added successfully.",   Severity.Success );
+
+            }
+        }
+    }
+
+    private async Task EditChapitre(ChapitreDTO chapitre)
+    {
+        var parameters = new DialogParameters
+        {
+            { "EditingChapitre", chapitre }
+        };
+
+        var dialog = DialogService.Show<AddEditChapitreDialog>("Edit Chapitre", parameters);
+        var result = await dialog.Result;
+
+        if (result?.Canceled==false)
+        {
+            var updatedChapitre = result.Data as ChapitreDTO;
+            if (updatedChapitre != null)
+            {
+                var index = Chapitres.FindIndex(c => c.ChapitreId == updatedChapitre.ChapitreId);
+                if (index >= 0)
+                {
+                    Chapitres[index] = updatedChapitre;
+                    Snackbar.Add("Chapitre updated successfully.", Severity.Success);
+                }
+            }
+        }
+    }
+
+    private async Task DeleteChapitre(ChapitreDTO chapitre)
+    {
+        bool? confirm = await DialogService.ShowMessageBox(
+            "Delete Confirmation",
+            $"Are you sure you want to delete Chapitre {chapitre.Chapitre1}?",
+            yesText: "Yes", noText: "Cancel");
+
+        if (confirm == true)
+        {
+            await ChapitreService.DeleteAsync(chapitre.ChapitreId);
+            Chapitres.Remove(chapitre);
+            Snackbar.Add("Chapitre deleted successfully.", Severity.Success);
+        }
+    }
+}

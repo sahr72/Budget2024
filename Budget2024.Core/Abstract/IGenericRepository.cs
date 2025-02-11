@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,5 +29,7 @@ namespace Budget2024.Core.Abstract
                                                                           .Where(b => b.Amount > 1000)
                                                                           .ToListAsync();
                                 */
+
+        Task<IEnumerable<T>> FindAsync(Expression<Func<T, bool>> predicate);
     }
 }

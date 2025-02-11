@@ -1,15 +1,15 @@
 {
   "mainAssemblyName": "Budget2024.Webass",
   "resources": {
-    "hash": "sha256-Sv8L2PIK+jtXolJ9cua1xIzkPbb9LFLt7oYgX3LUBCU=",
+    "hash": "sha256-bZwBKo21+KP47vabrd5+EvvbH/NpfDz/d6QByI+Knho=",
     "jsModuleNative": {
-      "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
+      "dotnet.native.js": "sha256-B6DNRvFeCUi3jbx9uKpuj+hV9cN0KG4RdZj1FgBZwj8="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.js": "sha256-nam8JTYKjhMKOTg6+FlihYP6JpWPGe3jjM9fiUFWzhY="
+      "dotnet.runtime.js": "sha256-aTAnT1r/EAWev8oI/mTFI9nH3RsfA5M822bNiGhok6U="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-1NJsNYy4gznvjVwzcG5w3Cl50enK1KB/7cKBMY+6jz4="
+      "dotnet.native.wasm": "sha256-4X9eav+Ak45oe3jDiM7H2gSxg1ZRzmhn9QfZURenUbE="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -242,16 +242,16 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "Budget2024.Application.wasm": "sha256-03H87JkrvzpuxC/MjeMLzfokV+u1or8cYc/9yLnTjXU=",
-      "Budget2024.Core.wasm": "sha256-wfFpPUpb42uXN9q5zPrqlxD5JMiO8rV9pP5CIn52+3o=",
-      "Budget2024.Infrastructure.wasm": "sha256-rdK3vvRFcgXJdsixYRzCwLq6dcPRjrtzie//TvhK7o0=",
-      "Budget2024.Webass.wasm": "sha256-oEpYwj3GnTdGSpUrwIaPbkEDt31mbYYWC9T4ovB/zIY="
+      "Budget2024.Application.wasm": "sha256-4w9jPtvVUeanoj1xGeNkJwUBhI0yqHu8U30xqIP7qQY=",
+      "Budget2024.Core.wasm": "sha256-z5KwXpt/pGJDO51AWwSMiqHAoJZIvm9j0s7sXdtaT0k=",
+      "Budget2024.Infrastructure.wasm": "sha256-+gQ8fhn1mmjiHAB1DfmENNGMHgv8quBpxx1ZAqEg2ac=",
+      "Budget2024.Webass.wasm": "sha256-1CT2k8bpf/KLpw/PFhS4nc7XZk3YeetJgelu4KcgnVc="
     },
     "pdb": {
-      "Budget2024.Application.pdb": "sha256-Uns28InVzMJSJkNmvzLdAV9omBL9q08NhQzoJp5gPkE=",
-      "Budget2024.Core.pdb": "sha256-usYnrRvrL7ArxbFO9ph1/IwYUjMpkQhuKc+f77Zl7cw=",
-      "Budget2024.Infrastructure.pdb": "sha256-eeMoW3KgUOZte3zoOAjMOHZixiDAqqLwmdn9ZF83kaw=",
-      "Budget2024.Webass.pdb": "sha256-aA/7itS5Zy+zOfqHIi23ZbfevYEoMn8pP4JA9WegiDk="
+      "Budget2024.Application.pdb": "sha256-GWuLrc2ENacxUc8uD1wU3zS8w8vwicDVMUJdnX+LxRc=",
+      "Budget2024.Core.pdb": "sha256-zpzuVhJHBnVtnzZ8q3hiH28+26DB8TzOpoFHmR0vflk=",
+      "Budget2024.Infrastructure.pdb": "sha256-OmPL+9CsjlF5SYDf3WhnRy4z9Nk2owuxyFzPe61D+dQ=",
+      "Budget2024.Webass.pdb": "sha256-b8irUd4JaagbXdYP2RJT0vLxYaif3/hTSNv9ce1KxOg="
     }
   },
   "cacheBootResources": true,

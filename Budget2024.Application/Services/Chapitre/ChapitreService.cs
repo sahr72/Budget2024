@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Budget2024.Application.DTOs.Budget;
-using Budget2024.Application.Services.Budget;
 using Budget2024.Application.Services.Chapitre;
 using Budget2024.Core.Abstract;
 
@@ -40,19 +39,36 @@ public class ChapitreService : IChapitreService
     }
     public async Task<ChapitreDTO> AddAsync(ChapitreDTO dto)
     {
+        //1. Map dto to entity
         var entite = _mapper.Map<Infrastructure.Data.Chapitre>(dto);
+        //2. Save the entity to the database
         await _unitOfWork.Repository<Infrastructure.Data.Chapitre>().AddAsync(entite);
         await _unitOfWork.SaveChangesAsync();
-        return _mapper.Map<ChapitreDTO>(dto);
+        //3. Map the updated entity back to the DTO
+        return _mapper.Map<ChapitreDTO>(entite);
     }
-    public async Task UpdateAsync(int id, ChapitreDTO dto)
+    //public async Task UpdateAsync(int id, ChapitreDTO dto)
+    //{
+    //    var entite = _mapper.Map<Infrastructure.Data.Chapitre>(dto);
+    //    //var x=_unitOfWork.Repository<Core.DomainEntities.Chapitre>().GetByIdAsync<int>(id);
+    //    await _unitOfWork.Repository<Infrastructure.Data.Chapitre>().UpdateAsync(entite);
+    //    await _unitOfWork.SaveChangesAsync();
+
+    //}
+    public async Task<ChapitreDTO> UpdateAsync(int id, ChapitreDTO dto)
     {
-        var entite = _mapper.Map<Infrastructure.Data.Chapitre>(dto);
-        //var x=_unitOfWork.Repository<Core.DomainEntities.Chapitre>().GetByIdAsync<int>(id);
-        await _unitOfWork.Repository<Infrastructure.Data.Chapitre>().UpdateAsync(entite);
+        var entity = await _unitOfWork.Repository<Infrastructure.Data.Chapitre>().GetByIdAsync(id);
+
+        if (entity == null)
+            throw new KeyNotFoundException("Entity not found.");
+
+        _mapper.Map(dto, entity); // Update entity with values from dto
+
         await _unitOfWork.SaveChangesAsync();
 
+        return _mapper.Map<ChapitreDTO>(entity);
     }
+
 
     public async Task DeleteAsync(int id)
     {
@@ -79,6 +95,12 @@ public class ChapitreService : IChapitreService
         int pageSize = 10)
     {
         var entities = await _unitOfWork.Repository<Infrastructure.Data.Chapitre>().GetAllFilteredAsync(filters, sortOrder, pageNumber, pageSize);
+        return _mapper.Map<IEnumerable<ChapitreDTO>>(entities);
+    }
+
+    public async Task<IEnumerable<ChapitreDTO>> GetAllChapitreByBudgetAsync(int budgetId)
+    {
+        var entities = await _unitOfWork.Repository<Infrastructure.Data.Chapitre>().FindAsync(c => c.BudgetId == budgetId);
         return _mapper.Map<IEnumerable<ChapitreDTO>>(entities);
     }
 }

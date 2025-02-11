@@ -1,5 +1,6 @@
 ﻿using Budget2024.Core.Abstract;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Budget2024.Api.Controllers
 {
@@ -55,7 +56,13 @@ namespace Budget2024.Api.Controllers
         public async Task<ActionResult<TDto>> Create([FromBody] TDto dto)
         {
             if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage));
+                Console.WriteLine($"Validation Errors: {string.Join(", ", errors)}");
                 return BadRequest(ModelState);
+            }
+
+            Console.WriteLine($"Payload: {JsonConvert.SerializeObject(dto)}");
 
             var createdDto = await _genericService.AddAsync(dto);
 
@@ -67,12 +74,18 @@ namespace Budget2024.Api.Controllers
         [HttpPut("update/{id:int}")]
         public async Task<IActionResult> Update(int id, [FromBody] TDto dto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+            //if (!ModelState.IsValid)
+            //    return BadRequest(ModelState);
 
-            await _genericService.UpdateAsync(id, dto);
+            //await _genericService.UpdateAsync(id, dto);
 
-            return NoContent();
+            //return NoContent();
+            var updatedDto = await _genericService.UpdateAsync(id, dto);
+
+            if (updatedDto == null)
+                return NotFound();
+
+            return Ok(updatedDto);
         }
 
         // Delete an entity by ID

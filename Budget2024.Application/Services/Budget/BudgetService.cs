@@ -44,15 +44,28 @@ public class BudgetService: IBudgetService
         await _unitOfWork.SaveChangesAsync();
         return _mapper.Map<BudgetDTO>(dto);
     }
-    public async Task UpdateAsync(int id, BudgetDTO dto)
+    //public async Task UpdateAsync(int id, BudgetDTO dto)
+    //{
+    //    var entite = _mapper.Map<Infrastructure.Data.Budget>(dto);
+    //    //var x=_unitOfWork.Repository<Core.DomainEntities.Budget>().GetByIdAsync<int>(id);
+    //    await _unitOfWork.Repository<Infrastructure.Data.Budget>().UpdateAsync(entite);
+    //    await _unitOfWork.SaveChangesAsync();
+
+    //}
+    public async Task<BudgetDTO> UpdateAsync(int id, BudgetDTO dto)
     {
-        var entite = _mapper.Map<Infrastructure.Data.Budget>(dto);
-        //var x=_unitOfWork.Repository<Core.DomainEntities.Budget>().GetByIdAsync<int>(id);
-        await _unitOfWork.Repository<Infrastructure.Data.Budget>().UpdateAsync(entite);
+        var entity = await _unitOfWork.Repository<Infrastructure.Data.Budget>().GetByIdAsync(id);
+
+        if (entity == null)
+            throw new KeyNotFoundException("Entity not found.");
+
+        _mapper.Map(dto, entity); // Update entity with values from dto
+
         await _unitOfWork.SaveChangesAsync();
 
-    }
+        return _mapper.Map<BudgetDTO>(entity);
 
+    }
     public async Task DeleteAsync(int id)
     {
         var entite = await _unitOfWork.Repository<Infrastructure.Data.Budget>().GetByIdAsync(id);

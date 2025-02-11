@@ -50,15 +50,27 @@ namespace Budget2024.Application.Services.Indemnite
             await _unitOfWork.SaveChangesAsync();
             return _mapper.Map<IndemniteDTO>(dto);
         }
-        public async Task UpdateAsync(int id, IndemniteDTO dto)
+        //public async Task UpdateAsync(int id, IndemniteDTO dto)
+        //{
+        //    var entite = _mapper.Map<Infrastructure.Data.Indemnite>(dto);
+        //    //var x=_unitOfWork.Repository<Core.DomainEntities.Indemnite>().GetByIdAsync<int>(id);
+        //    await _unitOfWork.Repository<Infrastructure.Data.Indemnite>().UpdateAsync(entite);
+        //    await _unitOfWork.SaveChangesAsync();
+
+        //}
+        public async Task<IndemniteDTO> UpdateAsync(int id, IndemniteDTO dto)
         {
-            var entite = _mapper.Map<Infrastructure.Data.Indemnite>(dto);
-            //var x=_unitOfWork.Repository<Core.DomainEntities.Indemnite>().GetByIdAsync<int>(id);
-            await _unitOfWork.Repository<Infrastructure.Data.Indemnite>().UpdateAsync(entite);
+            var entity = await _unitOfWork.Repository<Infrastructure.Data.Indemnite>().GetByIdAsync(id);
+
+            if (entity == null)
+                throw new KeyNotFoundException("Entity not found.");
+
+            _mapper.Map(dto, entity); // Update entity with values from dto
+
             await _unitOfWork.SaveChangesAsync();
 
+            return _mapper.Map<IndemniteDTO>(entity);
         }
-
         public async Task DeleteAsync(int id)
         {
             var entite = await _unitOfWork.Repository<Infrastructure.Data.Indemnite>().GetByIdAsync(id);

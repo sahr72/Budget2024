@@ -10,5 +10,6 @@ namespace Budget2024.Application.Services.Chapitre
 {
     public interface IChapitreService:IGenericService<ChapitreDTO, Core.DomainEntities.Chapitre>
     {
+        Task<IEnumerable<ChapitreDTO>> GetAllChapitreByBudgetAsync(int budgetId);
     }
 }

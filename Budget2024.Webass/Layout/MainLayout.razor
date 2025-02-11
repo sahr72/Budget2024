@@ -1,85 +1,88 @@
 ﻿ @inherits LayoutComponentBase
 @* Required *@
-@* <MudThemeProvider />
+<MudThemeProvider />
 <MudPopoverProvider />
- *@
+
 @* Needed for dialogs *@
-@* <MudDialogProvider />
- *@
+<MudDialogProvider />
+
 @* Needed for snackbars *@
-@* <MudSnackbarProvider /> *@
-<div class="app-layout">
-    @if (IsLoading)
-    {
-        <div id="app">
-            <div class="loading-container">
-                <svg class="loading-progress" viewBox="25 25 50 50">
-                    <circle cx="50" cy="50" r="20"></circle>
-                </svg>
-                <div class="loading-progress-text">Loading...</div>
+<MudSnackbarProvider />
+<MudLayout>
+    <div class="app-layout">
+        @if (IsLoading)
+        {
+            <div id="app">
+                <div class="loading-container">
+                    <svg class="loading-progress" viewBox="25 25 50 50">
+                        <circle cx="50" cy="50" r="20"></circle>
+                    </svg>
+                    <div class="loading-progress-text">Loading...</div>
+                </div>
             </div>
-        </div>
-    }
-    else
-    {
-        <!-- Header -->
-        <header class="app-header">
-            <img src="images/LogoInfoParcours.jpg" alt="Logo" class="logo" />
-            <div class="user-info">Welcome, @UserName</div>
-        </header>
+        }
+        else
+        {
+            <!-- Header -->
+            <header class="app-header">
+                <img src="images/LogoInfoParcours.jpg" alt="Logo" class="logo" />
+                <div class="user-info">Welcome, @UserName</div>
+            </header>
 
-        <!-- Top Horizontal Menu -->
-        <nav class="top-menu">
-            <ul>
-                @foreach (var item in TopMenuItems)
-                {
-                    <li @onclick="() => OnTopMenuClick(item)">@item</li>
-                }
-            </ul>
-        </nav>
-
-        <div class="main-container">
-            <!-- Left Sidebar Menu -->
-            <aside class="left-menu">
+            <!-- Top Horizontal Menu -->
+            <nav class="top-menu">
                 <ul>
-                    @foreach (var item in LeftMenuItems)
+                    @foreach (var item in TopMenuItems)
                     {
-                        <li class="@GetLeftMenuItemClass(item)" @onclick="() => OnLeftMenuClick(item)">
-                            <a href="@item.Url">@item.Title</a>
-                        </li>
+                        <li @onclick="() => OnTopMenuClick(item)">@item</li>
                     }
                 </ul>
-            </aside>
+            </nav>
 
-            <!-- Main Content -->
-            <main>
-                @Body
-            </main>
-        </div>
+            <div class="main-container">
+                <!-- Left Sidebar Menu -->
+                <aside class="left-menu">
+                    <ul>
+                        @foreach (var item in LeftMenuItems)
+                        {
+                            <li class="@GetLeftMenuItemClass(item)" @onclick="() => OnLeftMenuClick(item)">
+                                <a href="@item.Url">@item.Title</a>
+                            </li>
+                        }
+                    </ul>
+                </aside>
 
-        <!-- Footer -->
-        <footer class="app-footer">
-            <p>&copy; 2024 Your Company</p>
-        </footer>
-    }
-</div>
+                <!-- Main Content -->
+                <main>
+                    @Body
+                </main>
 
-@code {
-    private bool IsLoading = true;
-    private string UserName = "User"; // Replace with real data
-    private List<string> TopMenuItems = new() { "Accueil", "Employé", "Engagement", "Mandatement", "Paramètrage", "À propos..." };
-    private List<MenuItem> LeftMenuItems = new();
-    private string ActiveLeftMenuItemUrl = "";
+            </div>
 
-    protected override async Task OnInitializedAsync()
-    {
+            <!-- Footer -->
+            <footer class="app-footer">
+                <p>&copy; 2024 Your Company</p>
+            </footer>
+        }
+    </div>
+
+    @code {
+        private bool IsLoading = true;
+        private string UserName = "User"; // Replace with real data
+        private List<string> TopMenuItems = new() { "Accueil", "Employé", "Engagement", "Mandatement", "Paramètrage", "À propos..." };
+        private List<MenuItem> LeftMenuItems = new();
+        private string ActiveLeftMenuItemUrl = "";
+
+
+        protected override async Task OnInitializedAsync()
+        {
         // Simulate loading delay
         await Task.Delay(1000); // Adjust delay as needed
         IsLoading = false;
-    }
+        }
 
-    private void OnTopMenuClick(string item)
-    {
+        private void OnTopMenuClick(string item)
+        {
         LeftMenuItems = item switch
         {
             "Accueil" => new() { new MenuItem("Dashboard", "/dashboard"), new MenuItem("Profile", "/profile") },
@@ -92,21 +95,21 @@
         };
         ActiveLeftMenuItemUrl = "";
         StateHasChanged();
-    }
+        }
 
-    private void OnLeftMenuClick(MenuItem item)
-    {
+        private void OnLeftMenuClick(MenuItem item)
+        {
         ActiveLeftMenuItemUrl = item.Url;
         StateHasChanged();
-    }
+        }
 
-    private string GetLeftMenuItemClass(MenuItem item)
-    {
+        private string GetLeftMenuItemClass(MenuItem item)
+        {
         return item.Url == ActiveLeftMenuItemUrl ? "active" : "";
-    }
+        }
 
-    public class MenuItem
-    {
+        public class MenuItem
+        {
         public string Title { get; set; }
         public string Url { get; set; }
 
@@ -115,6 +118,8 @@
             Title = title;
             Url = url;
         }
+        }
     }
-}
+
+</MudLayout>
 

@@ -18,7 +18,9 @@ namespace Budget2024.Core.Abstract
                     int pageSize = 10);
         Task<TDto?> GetByIdAsync(int id);
         Task<TDto> AddAsync(TDto dto);
-        Task UpdateAsync(int id, TDto dto);
+
+        //Task UpdateAsync(int id, TDto dto);
+        Task<TDto> UpdateAsync(int id, TDto dto);
         Task DeleteAsync(int id);
         Task<bool> ExistsAsync(int id);
     }

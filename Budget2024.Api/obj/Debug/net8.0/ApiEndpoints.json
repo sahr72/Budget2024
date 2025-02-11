@@ -46,6 +46,22 @@
     ]
   },
   {
+    "ContainingType": "Budget2024.Api.Controllers.ArticleController",
+    "Method": "GetAllArticleByChapitre",
+    "RelativePath": "api/Article/by-chapitre/{chapitreId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chapitreId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ArticleDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Article, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Create",
     "RelativePath": "api/Article/create",
@@ -344,6 +360,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Budget2024.Api.Controllers.ChapitreController",
+    "Method": "GetAllChapitreByBudget",
+    "RelativePath": "api/Chapitre/by-budget/{budgetId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "budgetId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Budget2024.Api.Controllers.GenericController\u00602[[Budget2024.Application.DTOs.Budget.ChapitreDTO, Budget2024.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Budget2024.Core.DomainEntities.Chapitre, Budget2024.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

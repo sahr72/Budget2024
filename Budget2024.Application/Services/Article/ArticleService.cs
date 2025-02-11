@@ -49,15 +49,28 @@ namespace Budget2024.Application.Services.Article
             await _unitOfWork.SaveChangesAsync();
             return _mapper.Map<ArticleDTO>(dto);
         }
-        public async Task UpdateAsync(int id, ArticleDTO dto)
+        //public async Task UpdateAsync(int id, ArticleDTO dto)
+        //{
+        //    var entite = _mapper.Map<Infrastructure.Data.Article>(dto);
+        //    //var x=_unitOfWork.Repository<Core.DomainEntities.Article>().GetByIdAsync<int>(id);
+        //    await _unitOfWork.Repository<Infrastructure.Data.Article>().UpdateAsync(entite);
+        //    await _unitOfWork.SaveChangesAsync();
+
+        //}
+        public async Task<ArticleDTO> UpdateAsync(int id, ArticleDTO dto)
         {
-            var entite = _mapper.Map<Infrastructure.Data.Article>(dto);
-            //var x=_unitOfWork.Repository<Core.DomainEntities.Article>().GetByIdAsync<int>(id);
-            await _unitOfWork.Repository<Infrastructure.Data.Article>().UpdateAsync(entite);
+            var entity = await _unitOfWork.Repository<Infrastructure.Data.Article>().GetByIdAsync(id);
+
+            if (entity == null)
+                throw new KeyNotFoundException("Entity not found.");
+
+            _mapper.Map(dto, entity); // Update entity with values from dto
+
             await _unitOfWork.SaveChangesAsync();
 
-        }
+            return _mapper.Map<ArticleDTO>(entity);
 
+        }
         public async Task DeleteAsync(int id)
         {
             var entite = await _unitOfWork.Repository<Infrastructure.Data.Article>().GetByIdAsync(id);
@@ -83,6 +96,12 @@ namespace Budget2024.Application.Services.Article
             int pageSize = 10)
         {
             var entities = await _unitOfWork.Repository<Infrastructure.Data.Article>().GetAllFilteredAsync(filters, sortOrder, pageNumber, pageSize);
+            return _mapper.Map<IEnumerable<ArticleDTO>>(entities);
+        }
+
+        public async Task<IEnumerable<ArticleDTO>> GetAllArticleByChapitreAsync(int chapitreId)
+        {
+            var entities = await _unitOfWork.Repository<Infrastructure.Data.Article>().FindAsync(c => c.ChapitreId == chapitreId);
             return _mapper.Map<IEnumerable<ArticleDTO>>(entities);
         }
     }
